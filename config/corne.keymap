@@ -9,64 +9,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        Select-All {
-            bindings = <&kp LC(A)>;
-            key-positions = <1 2 3>;
-        };
-
-        Win {
-            bindings = <&kp LEFT_WIN>;
-            key-positions = <38 29>;
-        };
-
-        Refresh {
-            bindings = <&kp F5>;
-            key-positions = <28 27 26>;
-        };
-
-        Esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
-        };
-
-        Home {
-            bindings = <&kp HOME>;
-            key-positions = <37 29>;
-        };
-
-        Delete {
-            bindings = <&kp DELETE>;
-            key-positions = <10 11>;
-        };
-
-        Print-Screen {
-            bindings = <&kp LC(PRINTSCREEN)>;
-            key-positions = <6 7>;
-        };
-
-        F17-RadialMenue {
-            bindings = <&kp F17>;
-            key-positions = <17 29>;
-        };
-
-        F19-RadialMenue {
-            bindings = <&kp F19>;
-            key-positions = <5 17>;
-        };
-
-        Layer-Arrow {
-            bindings = <&mo 3>;
-            key-positions = <37 38>;
-        };
-
-        Layer-Symbol {
-            bindings = <&mo 2>;
-            key-positions = <36 37>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     behaviors {
         hmr: hmr {
