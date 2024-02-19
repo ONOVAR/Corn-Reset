@@ -38,7 +38,7 @@
         };
 
         Print_Screen {
-            bindings = <&kp PRINTSCREEN>;
+            bindings = <&kp RC(PRINTSCREEN)>;
             key-positions = <6 7>;
         };
 
@@ -50,6 +50,16 @@
         F19_Key {
             bindings = <&kp F19>;
             key-positions = <17 5>;
+        };
+
+        Symbols_Layer {
+            bindings = <&mo 2>;
+            key-positions = <37 38>;
+        };
+
+        Arrow_Layer {
+            bindings = <&mo 3>;
+            key-positions = <36 37>;
         };
     };
 
