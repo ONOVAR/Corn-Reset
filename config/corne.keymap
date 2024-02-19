@@ -9,7 +9,29 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        Select_All {
+            bindings = <&kp RA(A)>;
+            key-positions = <1 2 3>;
+        };
+
+        Win_Key {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <38 29>;
+        };
+
+        Refresh {
+            bindings = <&kp LS(F5)>;
+            key-positions = <26 27 28>;
+        };
+
+        Esc_Key {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
+    };
 
     behaviors {
         hmr: hmr {
