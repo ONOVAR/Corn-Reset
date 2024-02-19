@@ -52,19 +52,9 @@
             key-positions = <17 5>;
         };
 
-        Symbols_Layer {
-            bindings = <&mo 2>;
-            key-positions = <37 38>;
-        };
-
-        Arrow_Layer {
-            bindings = <&mo 3>;
-            key-positions = <36 37>;
-        };
-
-        Enter_Key {
-            bindings = <&kp ENTER>;
-            key-positions = <15 16>;
+        Delete_Key {
+            bindings = <&kp DEL>;
+            key-positions = <10 11>;
         };
     };
 
