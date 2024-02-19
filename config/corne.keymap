@@ -13,7 +13,7 @@
         compatible = "zmk,combos";
 
         Select_All {
-            bindings = <&kp RA(A)>;
+            bindings = <&kp LC(A)>;
             key-positions = <1 2 3>;
         };
 
@@ -40,6 +40,16 @@
         Print_Screen {
             bindings = <&kp PRINTSCREEN>;
             key-positions = <6 7>;
+        };
+
+        F17_Key {
+            bindings = <&kp F17>;
+            key-positions = <17 29>;
+        };
+
+        F19_Key {
+            bindings = <&kp F19>;
+            key-positions = <29 17>;
         };
     };
 
