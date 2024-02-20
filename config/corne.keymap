@@ -14,7 +14,7 @@
 
         Select_All {
             bindings = <&kp LC(A)>;
-            key-positions = <1 2 3>;
+            key-positions = <2 3 4>;
         };
 
         Win_Key {
@@ -57,12 +57,12 @@
             key-positions = <10 11>;
         };
 
-        Symbols_Layer {
+        Symbols_Layer_L {
             bindings = <&mo 2>;
             key-positions = <37 38>;
         };
 
-        Arrow_Layer {
+        Arrow_Layer_L {
             bindings = <&mo 3>;
             key-positions = <36 37>;
         };
@@ -70,6 +70,16 @@
         Enter_Key {
             bindings = <&kp ENTER>;
             key-positions = <15 16>;
+        };
+
+        Arrow_Layer_R {
+            bindings = <&mo 3>;
+            key-positions = <40 41>;
+        };
+
+        Symbol_Layere_R {
+            bindings = <&mo 2>;
+            key-positions = <39 40>;
         };
     };
 
@@ -82,6 +92,7 @@
             #binding-cells = <2>;
             hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
             tapping-term-ms = <150>;
+            flavor = "balanced";
         };
     };
 
@@ -129,10 +140,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp TAB    &kp EXCL         &kp AT     &kp HASH              &kp DLLR        &kp PRCNT           &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
+&kp COMMA  &kp PERIOD       &kp PLUS   &kp MINUS             &kp UNDERSCORE  &kp COLON           &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &trans
 &kp LCTRL  &kp EXCLAMATION  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp LEFT_BRACKET    &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
 &kp LSHFT  &trans           &trans     &trans                &trans          &trans              &kp UNDER  &kp PLUS   &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                                       &trans                &trans          &trans              &kp RET    &trans     &kp RALT
+                                       &trans                &trans          &trans              &trans     &trans     &trans
             >;
         };
 
