@@ -129,13 +129,13 @@
 
         S_Curly_Braces {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <14 15 16>;
+            key-positions = <15 16 2>;
             timeout-ms = <250>;
         };
 
         S_Square_Brackets {
             bindings = <&kp LBKT>;
-            key-positions = <>;
+            key-positions = <14 15 4>;
             slow-release;
         };
 
@@ -204,7 +204,7 @@
 
         Language {
             bindings = <&kp F18>;
-            key-positions = <16 17>;
+            key-positions = <5 4>;
         };
     };
 
