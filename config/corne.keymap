@@ -14,13 +14,12 @@
 
         Select_All {
             bindings = <&kp LC(A)>;
-            key-positions = <2 3 4>;
+            key-positions = <2 3 1>;
         };
 
         Win_Key_L {
             bindings = <&kp LEFT_WIN>;
             key-positions = <29 37 38>;
-            timeout-ms = <350>;
         };
 
         Refresh {
@@ -123,7 +122,42 @@
 
         S_Parentheses {
             bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <14 15 13>;
+        };
+
+        S_Curly_Braces {
+            bindings = <&kp LEFT_BRACE>;
             key-positions = <14 15 16>;
+        };
+
+        S_Square_Brackets {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <15 16 17>;
+        };
+
+        S_Comma {
+            bindings = <&kp COMMA>;
+            key-positions = <1 2>;
+        };
+
+        S_Period {
+            bindings = <&kp PERIOD>;
+            key-positions = <2 3>;
+        };
+
+        S_Underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <3 4>;
+        };
+
+        S_Colon {
+            bindings = <&kp COLON>;
+            key-positions = <3 4 2>;
+        };
+
+        S_Semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <4 2>;
         };
     };
 
