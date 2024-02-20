@@ -128,7 +128,7 @@
 
         S_Square_Brackets {
             bindings = <&kp LBKT>;
-            key-positions = <15 16 17>;
+            key-positions = <>;
             slow-release;
         };
 
@@ -154,7 +154,7 @@
 
         S_Equal {
             bindings = <&kp EQUAL>;
-            key-positions = <37 14>;
+            key-positions = <>;
         };
 
         S_Minus {
@@ -195,7 +195,7 @@
 
         kp_Test {
             bindings = <&kp A>;
-            key-positions = <3 16 4>;
+            key-positions = <3 16 14>;
         };
     };
 
