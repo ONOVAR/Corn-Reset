@@ -15,6 +15,7 @@
         Select_All {
             bindings = <&kp LC(A)>;
             key-positions = <2 3 1>;
+            timeout-ms = <250>;
         };
 
         Win_Key_L {
@@ -26,11 +27,13 @@
         Refresh {
             bindings = <&kp LS(F5)>;
             key-positions = <26 27 28>;
+            timeout-ms = <250>;
         };
 
         Esc_Key {
             bindings = <&kp ESCAPE>;
             key-positions = <14 15>;
+            timeout-ms = <50>;
         };
 
         Print_Screen {
@@ -121,12 +124,13 @@
         S_Parentheses {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <14 15 13>;
+            timeout-ms = <250>;
         };
 
         S_Curly_Braces {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <14 15 16>;
-            timeout-ms = <200>;
+            timeout-ms = <250>;
         };
 
         S_Square_Brackets {
@@ -195,6 +199,7 @@
         kp_Test {
             bindings = <&kp COLON>;
             key-positions = <3 16 14>;
+            timeout-ms = <250>;
         };
 
         Language {
