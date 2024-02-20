@@ -121,24 +121,6 @@
             key-positions = <12 13>;
         };
 
-        S_Parentheses {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <14 15 13>;
-            timeout-ms = <250>;
-        };
-
-        S_Curly_Braces {
-            bindings = <&kp LEFT_BRACE>;
-            key-positions = <15 16 2>;
-            timeout-ms = <250>;
-        };
-
-        S_Square_Brackets {
-            bindings = <&kp LBKT>;
-            key-positions = <14 15 4>;
-            slow-release;
-        };
-
         S_Comma {
             bindings = <&kp COMMA>;
             key-positions = <1 2>;
@@ -179,32 +161,14 @@
             key-positions = <3 16>;
         };
 
-        S_Ampersand {
-            bindings = <&kp AMPS>;
-            key-positions = <15 28>;
-            timeout-ms = <200>;
-            require-prior-idle-ms = <200>;
-        };
-
-        S_Pipe {
-            bindings = <&kp PIPE>;
-            key-positions = <29 16>;
-        };
-
         S_Asterisk {
             bindings = <&kp ASTERISK>;
             key-positions = <4 17>;
         };
 
-        kp_Test {
-            bindings = <&kp COLON>;
-            key-positions = <3 16 14>;
-            timeout-ms = <250>;
-        };
-
         Language {
             bindings = <&kp F18>;
-            key-positions = <5 4>;
+            key-positions = <16 17>;
         };
     };
 
