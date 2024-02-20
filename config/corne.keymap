@@ -92,6 +92,18 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <0 1>;
         };
+
+        Home_Key_L {
+            bindings = <&kp HOME>;
+            key-positions = <37 29>;
+            timeout-ms = <350>;
+        };
+
+        Home_Key_R {
+            bindings = <&kp HOME>;
+            key-positions = <40 30>;
+            timeout-ms = <350>;
+        };
     };
 
     behaviors {
@@ -160,10 +172,10 @@
 
         Arrow {
             bindings = <
-&trans  &trans  &trans    &kp UP    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                          &trans    &trans     &trans    &trans  &trans  &trans
+&trans  &trans  &trans    &kp UP        &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &kp LEFT_ALT  &kp LCTRL  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans        &trans     &trans    &trans  &trans  &trans
             >;
         };
 
