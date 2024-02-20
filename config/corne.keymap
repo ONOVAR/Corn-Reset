@@ -20,6 +20,8 @@
         Win_Key_L {
             bindings = <&kp LEFT_WIN>;
             key-positions = <29 37 28>;
+            require-prior-idle-ms = <350>;
+            timeout-ms = <100>;
         };
 
         Refresh {
@@ -63,6 +65,7 @@
             bindings = <&mo 3>;
             key-positions = <36 37>;
             timeout-ms = <350>;
+            require-prior-idle-ms = <350>;
         };
 
         Enter_Key {
@@ -95,7 +98,8 @@
         Home_Key_L {
             bindings = <&kp HOME>;
             key-positions = <37 29>;
-            timeout-ms = <200>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <250>;
         };
 
         Home_Key_R {
