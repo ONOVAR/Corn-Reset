@@ -20,6 +20,7 @@
         Win_Key_L {
             bindings = <&kp LEFT_WIN>;
             key-positions = <29 37 38>;
+            timeout-ms = <50>;
         };
 
         Refresh {
@@ -54,15 +55,15 @@
             key-positions = <10 11>;
         };
 
-        Symbols_Layer_L {
-            bindings = <&mo 2>;
+        Win_v2_L {
+            bindings = <&kp LEFT_WIN>;
             key-positions = <37 38>;
         };
 
         Arrow_Layer_L {
             bindings = <&mo 3>;
             key-positions = <36 37>;
-            timeout-ms = <350>;
+            timeout-ms = <50>;
         };
 
         Enter_Key {
@@ -76,8 +77,8 @@
             timeout-ms = <350>;
         };
 
-        Symbol_Layere_R {
-            bindings = <&mo 2>;
+        Win_v2_R {
+            bindings = <&kp LEFT_WIN>;
             key-positions = <39 40>;
             timeout-ms = <350>;
         };
@@ -96,7 +97,7 @@
         Home_Key_L {
             bindings = <&kp HOME>;
             key-positions = <37 29>;
-            timeout-ms = <350>;
+            timeout-ms = <50>;
         };
 
         Home_Key_R {
@@ -157,7 +158,52 @@
 
         S_Semicolon {
             bindings = <&kp SEMICOLON>;
-            key-positions = <4 2>;
+            key-positions = <14 3 16>;
+        };
+
+        S_Dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <2 4>;
+        };
+
+        Finde {
+            bindings = <&kp RC(F)>;
+            key-positions = <16 3 2>;
+        };
+
+        S_Exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <37 13>;
+        };
+
+        S_Equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <37 14>;
+        };
+
+        S_Minus {
+            bindings = <&kp MINUS>;
+            key-positions = <37 16>;
+        };
+
+        S_Plus {
+            bindings = <&kp PLUS>;
+            key-positions = <37 15>;
+        };
+
+        S_Question_Mark {
+            bindings = <&kp QUESTION>;
+            key-positions = <3 16>;
+        };
+
+        S_Ampersand {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <15 28>;
+        };
+
+        S_Pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <29 16>;
         };
     };
 
