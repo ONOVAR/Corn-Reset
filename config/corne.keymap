@@ -119,6 +119,7 @@
         Language_Change {
             bindings = <&kp F18>;
             key-positions = <17 16>;
+            timeout-ms = <350>;
         };
 
         S_Parentheses {
@@ -173,7 +174,7 @@
 
         S_Exclamation {
             bindings = <&kp EXCLAMATION>;
-            key-positions = <13 12>;
+            key-positions = <13 14>;
         };
 
         S_Equal {
