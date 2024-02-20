@@ -36,6 +36,7 @@
         Print_Screen {
             bindings = <&kp RC(PRINTSCREEN)>;
             key-positions = <6 7>;
+            timeout-ms = <250>;
         };
 
         F17_Key {
@@ -69,6 +70,7 @@
         Enter_Key {
             bindings = <&kp ENTER>;
             key-positions = <15 16>;
+            timeout-ms = <200>;
         };
 
         Arrow_Layer_R {
@@ -124,6 +126,7 @@
         S_Curly_Braces {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <14 15 16>;
+            timeout-ms = <200>;
         };
 
         S_Square_Brackets {
@@ -170,8 +173,6 @@
         S_Question_Mark {
             bindings = <&kp QMARK>;
             key-positions = <3 16>;
-            timeout-ms = <200>;
-            require-prior-idle-ms = <200>;
         };
 
         S_Ampersand {
@@ -189,8 +190,6 @@
         S_Asterisk {
             bindings = <&kp ASTERISK>;
             key-positions = <4 17>;
-            timeout-ms = <200>;
-            require-prior-idle-ms = <200>;
         };
 
         kp_Test {
@@ -270,10 +269,10 @@
 
         Arrow {
             bindings = <
-&trans  &trans  &trans    &kp UP    &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans    &trans    &kp LEFT_ALT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                          &trans    &trans        &trans    &trans  &trans  &trans
+&trans  &trans  &trans    &kp UP    &trans        &trans    &trans  &trans    &kp UP    &trans     &trans  &trans
+&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT     &trans    &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans    &trans    &kp LEFT_ALT  &trans    &trans  &kp LALT  &trans    &trans     &trans  &trans
+                          &trans    &trans        &trans    &trans  &trans    &trans
             >;
         };
 
