@@ -31,6 +31,8 @@
         Esc_Key {
             bindings = <&kp ESCAPE>;
             key-positions = <14 15>;
+            timeout-ms = <200>;
+            require-prior-idle-ms = <200>;
         };
 
         Print_Screen {
@@ -69,6 +71,8 @@
         Enter_Key {
             bindings = <&kp ENTER>;
             key-positions = <15 16>;
+            require-prior-idle-ms = <200>;
+            timeout-ms = <200>;
         };
 
         Arrow_Layer_R {
@@ -119,16 +123,22 @@
         S_Parentheses {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <14 15 13>;
+            require-prior-idle-ms = <200>;
+            timeout-ms = <200>;
         };
 
         S_Curly_Braces {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <14 15 16>;
+            require-prior-idle-ms = <200>;
+            timeout-ms = <200>;
         };
 
         S_Square_Brackets {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <15 16 17>;
+            timeout-ms = <200>;
+            require-prior-idle-ms = <200>;
         };
 
         S_Comma {
@@ -149,11 +159,15 @@
         S_Colon {
             bindings = <&kp COLON>;
             key-positions = <3 4 2>;
+            timeout-ms = <200>;
+            require-prior-idle-ms = <200>;
         };
 
         S_Dollar {
             bindings = <&kp DOLLAR>;
             key-positions = <2 4>;
+            timeout-ms = <200>;
+            require-prior-idle-ms = <200>;
         };
 
         Finde {
@@ -184,11 +198,15 @@
         S_Question_Mark {
             bindings = <&kp QMARK>;
             key-positions = <3 16>;
+            timeout-ms = <200>;
+            require-prior-idle-ms = <200>;
         };
 
         S_Ampersand {
             bindings = <&kp AMPS>;
             key-positions = <15 28>;
+            timeout-ms = <200>;
+            require-prior-idle-ms = <200>;
         };
 
         S_Pipe {
@@ -199,6 +217,8 @@
         S_Asterisk {
             bindings = <&kp ASTERISK>;
             key-positions = <4 17>;
+            timeout-ms = <200>;
+            require-prior-idle-ms = <200>;
         };
 
         kp_Test {
