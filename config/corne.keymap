@@ -116,11 +116,6 @@
             key-positions = <12 13>;
         };
 
-        Language_Change {
-            bindings = <&kp F18>;
-            key-positions = <17 16>;
-        };
-
         S_Parentheses {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <14 15 13>;
@@ -154,11 +149,6 @@
         S_Colon {
             bindings = <&kp COLON>;
             key-positions = <3 4 2>;
-        };
-
-        S_Semicolon {
-            bindings = <&kp A>;
-            key-positions = <14 3 16>;
         };
 
         S_Dollar {
@@ -209,6 +199,11 @@
         S_Asterisk {
             bindings = <&kp ASTERISK>;
             key-positions = <4 17>;
+        };
+
+        kp_Test {
+            bindings = <&kp A>;
+            key-positions = <14 3 16>;
         };
     };
 
