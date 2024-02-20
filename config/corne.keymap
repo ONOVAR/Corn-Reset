@@ -194,8 +194,13 @@
         };
 
         kp_Test {
-            bindings = <&kp A>;
+            bindings = <&kp COLON>;
             key-positions = <3 16 14>;
+        };
+
+        Language {
+            bindings = <&kp F18>;
+            key-positions = <16 17>;
         };
     };
 
