@@ -14,7 +14,7 @@
 
         Select_All {
             bindings = <&kp LC(A)>;
-            key-positions = <2 3 1>;
+            key-positions = <>;
             timeout-ms = <250>;
         };
 
