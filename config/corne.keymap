@@ -19,7 +19,7 @@
 
         Win_Key_L {
             bindings = <&kp LEFT_WIN>;
-            key-positions = <38 29 37>;
+            key-positions = <29 37 28>;
         };
 
         Refresh {
@@ -55,7 +55,8 @@
         Symbols_Layer_L {
             bindings = <&mo 2>;
             key-positions = <37 38>;
-            timeout-ms = <250>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <250>;
         };
 
         Arrow_Layer_L {
@@ -88,7 +89,7 @@
 
         Win_Key_R {
             bindings = <&kp LEFT_WIN>;
-            key-positions = <30 39 40>;
+            key-positions = <30 40 31>;
         };
 
         Home_Key_L {
