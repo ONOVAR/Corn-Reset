@@ -205,6 +205,11 @@
             bindings = <&kp PIPE>;
             key-positions = <29 16>;
         };
+
+        S_Asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <4 17>;
+        };
     };
 
     behaviors {
