@@ -17,7 +17,7 @@
             key-positions = <2 3 4>;
         };
 
-        Win_Key {
+        Win_Key_L {
             bindings = <&kp LEFT_WIN>;
             key-positions = <38 29>;
         };
@@ -32,7 +32,7 @@
             key-positions = <14 15>;
         };
 
-        Home_Key {
+        Home_Key_L {
             bindings = <&kp HOME>;
             key-positions = <29 37>;
         };
@@ -85,6 +85,16 @@
         bluetooth_Layer {
             bindings = <&mo 1>;
             key-positions = <6 7 8 9>;
+        };
+
+        Home_Layer_R {
+            bindings = <&kp HOME>;
+            key-positions = <30 40>;
+        };
+
+        Win_Key_R {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <30 39>;
         };
     };
 
