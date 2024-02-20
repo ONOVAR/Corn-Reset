@@ -98,7 +98,6 @@
         Home_Key_L {
             bindings = <&kp HOME>;
             key-positions = <37 29>;
-            timeout-ms = <100>;
             require-prior-idle-ms = <250>;
         };
 
