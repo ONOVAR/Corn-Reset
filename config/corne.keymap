@@ -19,7 +19,7 @@
 
         Win_Key_L {
             bindings = <&kp LEFT_WIN>;
-            key-positions = <38 29>;
+            key-positions = <38 29 37>;
         };
 
         Refresh {
@@ -55,12 +55,13 @@
         Symbols_Layer_L {
             bindings = <&mo 2>;
             key-positions = <37 38>;
+            timeout-ms = <250>;
         };
 
         Arrow_Layer_L {
             bindings = <&mo 3>;
             key-positions = <36 37>;
-            timeout-ms = <200>;
+            timeout-ms = <350>;
         };
 
         Enter_Key {
@@ -71,11 +72,13 @@
         Arrow_Layer_R {
             bindings = <&mo 3>;
             key-positions = <40 41>;
+            timeout-ms = <350>;
         };
 
         Symbol_Layere_R {
             bindings = <&mo 2>;
             key-positions = <39 40>;
+            timeout-ms = <350>;
         };
 
         bluetooth_Layer {
@@ -85,7 +88,7 @@
 
         Win_Key_R {
             bindings = <&kp LEFT_WIN>;
-            key-positions = <30 39>;
+            key-positions = <30 39 40>;
         };
 
         Home_Key_L {
