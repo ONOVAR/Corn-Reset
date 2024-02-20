@@ -170,6 +170,16 @@
             bindings = <&kp F18>;
             key-positions = <16 17>;
         };
+
+        Home {
+            bindings = <&kp HOME>;
+            key-positions = <16 2>;
+        };
+
+        End {
+            bindings = <&kp END>;
+            key-positions = <14 4>;
+        };
     };
 
     behaviors {
