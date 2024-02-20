@@ -19,9 +19,8 @@
 
         Win_Key_L {
             bindings = <&kp LEFT_WIN>;
-            key-positions = <29 37 28>;
-            require-prior-idle-ms = <350>;
-            timeout-ms = <100>;
+            key-positions = <29 37 38>;
+            timeout-ms = <350>;
         };
 
         Refresh {
@@ -42,11 +41,13 @@
         F17_Key {
             bindings = <&kp F17>;
             key-positions = <17 29>;
+            timeout-ms = <350>;
         };
 
         F19_Key {
             bindings = <&kp F19>;
             key-positions = <17 5>;
+            timeout-ms = <350>;
         };
 
         Delete_Key {
@@ -57,15 +58,12 @@
         Symbols_Layer_L {
             bindings = <&mo 2>;
             key-positions = <37 38>;
-            timeout-ms = <100>;
-            require-prior-idle-ms = <250>;
         };
 
         Arrow_Layer_L {
             bindings = <&mo 3>;
             key-positions = <36 37>;
             timeout-ms = <350>;
-            require-prior-idle-ms = <350>;
         };
 
         Enter_Key {
@@ -92,13 +90,14 @@
 
         Win_Key_R {
             bindings = <&kp LEFT_WIN>;
-            key-positions = <30 40 31>;
+            key-positions = <30 40 39>;
+            timeout-ms = <350>;
         };
 
         Home_Key_L {
             bindings = <&kp HOME>;
             key-positions = <37 29>;
-            require-prior-idle-ms = <250>;
+            timeout-ms = <350>;
         };
 
         Home_Key_R {
@@ -120,6 +119,11 @@
         Language_Change {
             bindings = <&kp F18>;
             key-positions = <4 5>;
+        };
+
+        S_Parentheses {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <14 15 16>;
         };
     };
 
