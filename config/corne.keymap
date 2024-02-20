@@ -20,7 +20,7 @@
         Win_Key_L {
             bindings = <&kp LEFT_WIN>;
             key-positions = <38 29>;
-            timeout-ms = <3500>;
+            timeout-ms = <350>;
         };
 
         Refresh {
@@ -31,12 +31,6 @@
         Esc_Key {
             bindings = <&kp ESCAPE>;
             key-positions = <14 15>;
-        };
-
-        Home_Key_L {
-            bindings = <&kp HOME>;
-            key-positions = <29 37>;
-            require-prior-idle-ms = <350>;
         };
 
         Print_Screen {
@@ -87,11 +81,6 @@
         bluetooth_Layer {
             bindings = <&mo 1>;
             key-positions = <6 7 8 9>;
-        };
-
-        Home_Layer_R {
-            bindings = <&kp HOME>;
-            key-positions = <30 40>;
         };
 
         Win_Key_R {
