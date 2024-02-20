@@ -60,6 +60,7 @@
         Arrow_Layer_L {
             bindings = <&mo 3>;
             key-positions = <36 37>;
+            timeout-ms = <200>;
         };
 
         Enter_Key {
@@ -90,11 +91,13 @@
         Home_Key_L {
             bindings = <&kp HOME>;
             key-positions = <37 29>;
+            timeout-ms = <200>;
         };
 
         Home_Key_R {
             bindings = <&kp HOME>;
             key-positions = <40 30>;
+            timeout-ms = <200>;
         };
 
         Backspace {
