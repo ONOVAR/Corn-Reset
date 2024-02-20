@@ -157,7 +157,7 @@
         };
 
         S_Semicolon {
-            bindings = <&kp SEMI>;
+            bindings = <&kp A>;
             key-positions = <14 3 16>;
         };
 
@@ -192,7 +192,7 @@
         };
 
         S_Question_Mark {
-            bindings = <&kp QUESTION>;
+            bindings = <&kp QMARK>;
             key-positions = <3 16>;
         };
 
