@@ -119,7 +119,6 @@
         Language_Change {
             bindings = <&kp F18>;
             key-positions = <17 16>;
-            timeout-ms = <350>;
         };
 
         S_Parentheses {
@@ -158,7 +157,7 @@
         };
 
         S_Semicolon {
-            bindings = <&kp SEMICOLON>;
+            bindings = <&kp SEMI>;
             key-positions = <14 3 16>;
         };
 
@@ -198,7 +197,7 @@
         };
 
         S_Ampersand {
-            bindings = <&kp AMPERSAND>;
+            bindings = <&kp AMPS>;
             key-positions = <15 28>;
         };
 
