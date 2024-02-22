@@ -62,6 +62,7 @@
             bindings = <&mo 2>;
             key-positions = <37 38>;
             slow-release;
+            require-prior-idle-ms = <250>;
         };
 
         Arrow_Layer_L {
