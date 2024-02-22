@@ -93,12 +93,6 @@
             timeout-ms = <350>;
         };
 
-        Home_Key_L {
-            bindings = <&kp HOME>;
-            key-positions = <37 29>;
-            timeout-ms = <50>;
-        };
-
         Home_Key_R {
             bindings = <&kp HOME>;
             key-positions = <40 30>;
