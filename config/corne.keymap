@@ -250,7 +250,7 @@
             bindings = <&kp SPACE>, <&kp HOME>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LCTL|MOD_LSFT|KC_F22)>;
+            mods = <(MOD_LCTL|MOD_LSFT)>;
         };
     };
 
