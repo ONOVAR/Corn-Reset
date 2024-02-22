@@ -184,6 +184,11 @@
             bindings = <&kp EXCL>;
             key-positions = <13 14>;
         };
+
+        Colon {
+            bindings = <&kp COLON>;
+            key-positions = <1 3>;
+        };
     };
 
     behaviors {
@@ -221,6 +226,15 @@
             label = "BRACKET_DANCE";
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
+
+            tapping-term-ms = <180>;
+        };
+
+        apostrophe_Dance: apostrophe_Dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "APOSTROPHE_DANCE";
+            #binding-cells = <0>;
+            bindings = <&kp SQT>, <&kp GRAVE>;
 
             tapping-term-ms = <180>;
         };
