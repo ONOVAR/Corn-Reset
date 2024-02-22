@@ -136,16 +136,6 @@
             key-positions = <3 4>;
         };
 
-        S_Minus {
-            bindings = <&kp MINUS>;
-            key-positions = <>;
-        };
-
-        S_Plus {
-            bindings = <&kp PLUS>;
-            key-positions = <>;
-        };
-
         S_Question_Mark {
             bindings = <&kp QMARK>;
             key-positions = <3 16>;
@@ -196,9 +186,9 @@
             key-positions = <2 4>;
         };
 
-        Exclamation {
-            bindings = <&kp EXCLAMATION>;
-            key-positions = <12 13>;
+        Test {
+            bindings = <&kp A>;
+            key-positions = <28 27>;
         };
     };
 
