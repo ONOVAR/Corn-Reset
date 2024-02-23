@@ -216,10 +216,10 @@
 
             display-name = "Lower";
             bindings = <
-&trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans      &trans  &trans  &trans
-                                    &trans        &trans        &trans          &trans  &trans  &bt BT_CLR
+&none  &none         &none         &none         &none         &none           &none  &none  &none       &none  &none  &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none  &none  &none       &none  &none  &none
+&none  &none         &none         &none         &none         &none           &none  &none  &none       &none  &none  &none
+                                   &none         &none         &none           &none  &none  &bt BT_CLR
             >;
         };
 
@@ -250,10 +250,10 @@
 
         Number {
             bindings = <
-&mt TAB EQUAL  &kp N0     &kp N9        &kp N8              &kp N7             &kp N6         &kp F7    &kp F8             &kp F9        &kp F10          &kp F11          &kp F12
-&trans         &kp N1     &kp N2        &kp N3              &kp N4             &kp N5         &kp F1    &mt LEFT_SHIFT F2  &mt LCTRL F3  &mt LEFT_ALT F4  &mt LEFT_WIN F5  &kp F6
-&trans         &kp SLASH  &kp ASTERISK  &mt LEFT_ALT MINUS  &mt LEFT_ALT PLUS  &kp PERCENT    &kp PLUS  &kp PLUS           &kp MINUS     &kp SLASH        &kp PERCENT      &trans
-                                        &trans              &trans             &trans         &trans    &trans             &trans
+&mt TAB EQUAL         &kp N0  &kp N9        &kp N8              &kp N7             &kp N6         &kp F7           &kp F8             &kp F9        &kp F10          &kp F11          &kp F12
+&mt LCTRL ASTERISK    &kp N1  &kp N2        &kp N3              &kp N4             &kp N5         &kp F1           &mt LEFT_SHIFT F2  &mt LCTRL F3  &mt LEFT_ALT F4  &mt LEFT_WIN F5  &kp F6
+&mt LEFT_SHIFT SLASH  &trans  &kp ASTERISK  &mt LEFT_ALT MINUS  &mt LEFT_ALT PLUS  &kp PERCENT    &kp PERCENT      &kp PLUS           &trans        &trans           &trans           &trans
+                                            &trans              &kp MINUS          &kp PLUS       &lt 3 BACKSPACE  &lt 2 SPACE        &trans
             >;
         };
     };
