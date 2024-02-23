@@ -241,10 +241,10 @@
 
         Arrow {
             bindings = <
-&none   &none  &none     &kp UP     &none         &none    &none  &none         &kp UP     &none      &none  &none
-&trans  &none  &kp LEFT  &kp DOWN   &kp RIGHT     &none    &none  &kp LEFT      &kp DOWN   &kp RIGHT  &none  &none
-&trans  &none  &none     &none      &none         &none    &none  &none         &none      &none      &none  &none
-                         &kp LCTRL  &kp LEFT_ALT  &none    &none  &kp LEFT_ALT  &kp LCTRL
+&none   &none  &none     &kp UP     &none         &none             &none           &none                      &kp UP          &none               &none             &none
+&trans  &none  &kp LEFT  &kp DOWN   &kp RIGHT     &none             &none           &mt LEFT_SHIFT LEFT_ARROW  &mt LCTRL DOWN  &mt LEFT_ALT RIGHT  &mt LEFT_WIN F24  &none
+&trans  &none  &none     &none      &none         &none             &none           &none                      &none           &none               &none             &none
+                         &kp LCTRL  &kp LEFT_ALT  &kp LEFT_SHIFT    &kp LEFT_SHIFT  &kp LEFT_ALT               &kp LCTRL
             >;
         };
 
