@@ -137,12 +137,6 @@
             bindings = <&kp EXCLAMATION>;
             key-positions = <13 14>;
         };
-
-        Win {
-            bindings = <&kp LEFT_WIN>;
-            key-positions = <38 37>;
-            require-prior-idle-ms = <350>;
-        };
     };
 
     behaviors {
@@ -247,19 +241,19 @@
 
         Arrow {
             bindings = <
-&none   &none  &none     &kp UP     &none         &none             &none           &none                      &kp UP          &none               &none             &none
-&trans  &none  &kp LEFT  &kp DOWN   &kp RIGHT     &none             &none           &mt LEFT_SHIFT LEFT_ARROW  &mt LCTRL DOWN  &mt LEFT_ALT RIGHT  &mt LEFT_WIN F24  &none
-&trans  &none  &none     &none      &none         &none             &none           &none                      &none           &none               &none             &none
-                         &kp LCTRL  &kp LEFT_ALT  &kp LEFT_SHIFT    &kp LEFT_SHIFT  &kp LEFT_ALT               &kp LCTRL
+&none   &none   &kp HOME  &kp UP     &kp END       &kp PAGE_UP       &kp PAGE_UP     &kp HOME                   &kp UP          &kp END             &none             &none
+&trans  &none   &kp LEFT  &kp DOWN   &kp RIGHT     &kp PAGE_DOWN     &kp PAGE_DOWN   &mt LEFT_SHIFT LEFT_ARROW  &mt LCTRL DOWN  &mt LEFT_ALT RIGHT  &mt LEFT_WIN F24  &none
+&trans  &trans  &none     &none      &none         &none             &none           &none                      &none           &none               &none             &none
+                          &kp LCTRL  &kp LEFT_ALT  &kp LEFT_SHIFT    &kp LEFT_SHIFT  &kp LEFT_ALT               &kp LCTRL
             >;
         };
 
         Number {
             bindings = <
-&kp EQUAL  &kp N0    &kp N9  &kp N8    &kp N7     &kp N6    &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans     &kp N1    &kp N2  &kp N3    &kp N4     &kp N5    &kp F1  &kp F2  &kp F3  &kp F4   &kp F5   &kp F6
-&trans     &kp PLUS  &trans  &kp LALT  &kp LCTRL  &trans    &trans  &trans  &trans  &trans   &trans   &trans
-                             &trans    &trans     &trans    &trans  &trans  &trans
+&mt TAB EQUAL  &kp N0     &kp N9        &kp N8              &kp N7             &kp N6         &kp F7    &kp F8             &kp F9        &kp F10          &kp F11          &kp F12
+&trans         &kp N1     &kp N2        &kp N3              &kp N4             &kp N5         &kp F1    &mt LEFT_SHIFT F2  &mt LCTRL F3  &mt LEFT_ALT F4  &mt LEFT_WIN F5  &kp F6
+&trans         &kp SLASH  &kp ASTERISK  &mt LEFT_ALT MINUS  &mt LEFT_ALT PLUS  &kp PERCENT    &kp PLUS  &kp PLUS           &kp MINUS     &kp SLASH        &kp PERCENT      &trans
+                                        &trans              &trans             &trans         &trans    &trans             &trans
             >;
         };
     };
