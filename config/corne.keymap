@@ -32,7 +32,7 @@
         F17_PiMenue {
             bindings = <&kp F17>;
             key-positions = <17 29>;
-            timeout-ms = <350>;
+            timeout-ms = <50>;
         };
 
         F19_PiMenue {
@@ -129,7 +129,7 @@
 
         Colon {
             bindings = <&kp COLON>;
-            key-positions = <3 1>;
+            key-positions = <4 17>;
             timeout-ms = <55>;
         };
 
@@ -201,7 +201,7 @@
             display-name = "Base";
             bindings = <
 &mt HOME TAB  &kp Q  &kp W  &kp E           &kp R           &kp T         &kp Y            &kp U              &kp I         &kp O            &kp P                    &kp BSLH
-&kp LCTRL     &kp A  &kp S  &kp D           &kp F           &kp G         &kp H            &hmr LEFT_SHIFT J  &hmr LCTRL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMICOLON  &kp SQT
+&kp LCTRL     &kp A  &kp S  &kp D           &kp F           &lt 2 G       &kp H            &hmr LEFT_SHIFT J  &hmr LCTRL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMICOLON  &kp SQT
 &kp LSHFT     &kp Z  &kp X  &mt LEFT_ALT C  &mt LEFT_WIN V  &mt HOME B    &mt HOME N       &kp M              &kp COMMA     &kp DOT          &kp FSLH                 &mt F1 RET
                             &mo 4           &kp SPACE       &kp F22       &lt 3 BACKSPACE  &lt 2 SPACE        &lt 4 DELETE
             >;
