@@ -142,6 +142,11 @@
             bindings = <&kp LEFT_ALT>;
             key-positions = <37 29>;
         };
+
+        Arrow_Layer {
+            bindings = <&mo 3>;
+            key-positions = <37 38>;
+        };
     };
 
     behaviors {
