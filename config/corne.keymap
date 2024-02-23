@@ -137,6 +137,11 @@
             bindings = <&kp EXCLAMATION>;
             key-positions = <13 14>;
         };
+
+        Alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <37 29>;
+        };
     };
 
     behaviors {
