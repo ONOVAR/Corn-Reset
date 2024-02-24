@@ -247,10 +247,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp COMMA    &kp PERIOD       &kp EXCLAMATION       &kp EQUAL     &kp PLUS       &kp MINUS         &kp CARET  &kp LESS_THAN  &kp EQUAL             &kp GREATER_THAN  &kp PERIOD       &kp COMMA
-&kp PERCENT  &kp EXCLAMATION  &kp EQUAL             &prent_Dance  &brace_Dance   &bracket_Dance    &kp SEMI   &kp SLASH      &kp NON_US_BACKSLASH  &kp EQUAL         &kp EXCLAMATION  &kp GRAVE
-&kp HASH     &kp SLASH        &kp NON_US_BACKSLASH  &kp PIPE      &kp AMPERSAND  &trans            &kp UNDER  &kp PLUS       &trans                &trans            &kp PIPE         &kp TILDE
-                                                    &trans        &trans         &trans            &trans     &trans         &trans
+&kp COMMA    &kp PERIOD         &kp EXCLAMATION  &kp EQUAL     &kp DOLLAR    &kp MINUS         &kp CARET  &kp LESS_THAN  &kp EQUAL             &kp GREATER_THAN  &kp PERIOD       &kp COMMA
+&kp PERCENT  &kp EXCLAMATION    &kp EQUAL        &prent_Dance  &brace_Dance  &bracket_Dance    &kp SEMI   &kp SLASH      &kp NON_US_BACKSLASH  &kp EQUAL         &kp EXCLAMATION  &kp GRAVE
+&kp HASH     &kp DOUBLE_QUOTES  &kp SQT          &kp GRAVE     &kp DOLLAR    &trans            &kp UNDER  &kp PLUS       &trans                &trans            &kp PIPE         &kp TILDE
+                                                 &trans        &trans        &trans            &trans     &trans         &trans
             >;
         };
 
@@ -265,7 +265,7 @@
 
         Number {
             bindings = <
-&mt TAB EQUAL         &kp N0  &kp N9        &kp N8              &kp N7             &kp N6            &kp DOLLAR   &kp LESS_THAN        &kp EQUAL        &kp GREATER_THAN       &trans              &trans
+&mt TAB EQUAL         &kp N0  &kp N9        &kp N8              &kp N7             &kp N6            &kp DOLLAR   &kp LESS_THAN        &kp EQUAL        &kp GREATER_THAN       &kp HASH            &trans
 &mt LCTRL ASTERISK    &kp N1  &kp N2        &kp N3              &kp N4             &lt 2 NUMBER_5    &kp PERCENT  &mt LEFT_SHIFT PLUS  &mt LCTRL MINUS  &mt LEFT_ALT ASTERISK  &mt LEFT_WIN SLASH  &trans
 &mt LEFT_SHIFT SLASH  &trans  &kp ASTERISK  &mt LEFT_ALT MINUS  &mt LEFT_ALT PLUS  &kp PERCENT       &mo 5        &bracket_Dance       &trans           &trans                 &trans              &trans
                                             &trans              &trans             &trans            &trans       &trans               &trans
