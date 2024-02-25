@@ -9,25 +9,191 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    behaviors {
-        zDance: zDance {
-            compatible = "zmk,behavior-tap-dance";
-            label = "ZDANCE";
-            #binding-cells = <0>;
-            bindings = <&kp Z>, <&kp H>;
+    combos {
+        compatible = "zmk,combos";
 
-            tapping-term-ms = <200>;
+        Refresh {
+            bindings = <&kp LS(F5)>;
+            key-positions = <26 27 28>;
+            timeout-ms = <25>;
         };
 
-        td_mytd: tap_dance_my {
+        Esc_Key {
+            bindings = <&kp ESCAPE>;
+            key-positions = <14 15>;
+        };
+
+        Print_Screen {
+            bindings = <&kp RC(PRINTSCREEN)>;
+            key-positions = <6 7>;
+        };
+
+        F17_PiMenue {
+            bindings = <&kp F17>;
+            key-positions = <17 29>;
+            timeout-ms = <50>;
+        };
+
+        F19_PiMenue {
+            bindings = <&kp F19>;
+            key-positions = <17 5>;
+            timeout-ms = <55>;
+        };
+
+        Delete_Key {
+            bindings = <&kp DEL>;
+            key-positions = <10 11>;
+            timeout-ms = <25>;
+        };
+
+        Enter_Key {
+            bindings = <&kp ENTER>;
+            key-positions = <15 16>;
+        };
+
+        bluetooth_Layer {
+            bindings = <&mo 1>;
+            key-positions = <6 7 8 9>;
+        };
+
+        Backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <0 1>;
+        };
+
+        Delete {
+            bindings = <&kp DELETE>;
+            key-positions = <12 13>;
+        };
+
+        S_Comma {
+            bindings = <&kp COMMA>;
+            key-positions = <1 2>;
+        };
+
+        S_Period {
+            bindings = <&kp PERIOD>;
+            key-positions = <2 3>;
+        };
+
+        S_Underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <3 4>;
+        };
+
+        S_Question_Mark {
+            bindings = <&kp QMARK>;
+            key-positions = <3 16>;
+        };
+
+        Language {
+            bindings = <&kp F18>;
+            key-positions = <16 17>;
+        };
+
+        Home {
+            bindings = <&kp HOME>;
+            key-positions = <2 15>;
+        };
+
+        End {
+            bindings = <&kp END>;
+            key-positions = <14 3>;
+        };
+
+        Ampersand {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <15 28>;
+        };
+
+        Pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <16 29>;
+        };
+
+        Duble_Quotes {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <14 16>;
+        };
+
+        Single_Quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <15 17>;
+        };
+
+        Semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <2 4>;
+        };
+
+        Colon {
+            bindings = <&kp COLON>;
+            key-positions = <4 17>;
+        };
+
+        Exclamaion {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <13 14>;
+        };
+
+        Minus {
+            bindings = <&kp MINUS>;
+            key-positions = <27 28>;
+        };
+
+        Select_All {
+            bindings = <&kp LC(A)>;
+            key-positions = <2 3 4>;
+        };
+
+        Win {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <37 38>;
+        };
+    };
+
+    behaviors {
+        hmr: hmr {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HMR";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
+            tapping-term-ms = <140>;
+            flavor = "balanced";
+        };
+
+        prent_Dance: prent_Dance {
             compatible = "zmk,behavior-tap-dance";
+            label = "PRENT_DANCE";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
 
-            label = "TAP_DANCE_MY;
-            #
+            tapping-term-ms = <180>;
+        };
 
-            binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&mt LSHFT SPACE>, <&mo 2>;
+        brace_Dance: brace_Dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "BRACE_DANCE";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
+        };
+
+        bracket_Dance: bracket_Dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "BRACKET_DANCE";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
+
+            tapping-term-ms = <180>;
+        };
+
+        f_Dance: f_Dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "F_DANCE";
+            #binding-cells = <0>;
+            bindings = <&kp A>, <&kp X>;
         };
     };
 
@@ -43,10 +209,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q    &kp W    &kp E           &kp R           &td_mytd      &kp Y            &kp U        &kp I         &kp O    &kp P     &kp BSLH
-&kp LCTRL  &lt 3 A  &lt 2 S  &kp D           &kp F           &lt 2 G       &kp H            &kp A        &kp A         &kp B    &kp B     &kp SQT
-&kp LSHFT  &kp Z    &kp X    &mt LEFT_WIN C  &mt LEFT_ALT V  &mt HOME B    &mt HOME N       &kp M        &kp COMMA     &kp DOT  &kp FSLH  &mt F1 RET
-                             &mo 4           &kp SPACE       &kp F22       &lt 3 BACKSPACE  &lt 2 SPACE  &lt 4 DELETE
+&kp TAB    &kp Q    &kp W    &kp E           &kp R           &kp T         &kp Y            &kp U              &kp I         &kp O            &kp P                    &kp BSLH
+&kp LCTRL  &lt 3 A  &lt 2 S  &kp D           &kp F           &lt 2 G       &kp H            &hmr LEFT_SHIFT J  &hmr LCTRL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z    &kp X    &mt LEFT_WIN C  &mt LEFT_ALT V  &mt HOME B    &mt HOME N       &kp M              &kp COMMA     &kp DOT          &kp FSLH                 &mt F1 RET
+                             &mo 4           &kp SPACE       &kp F22       &lt 3 BACKSPACE  &lt 2 SPACE        &lt 4 DELETE
             >;
         };
 
@@ -75,10 +241,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp COMMA    &kp PERIOD         &kp EXCLAMATION  &kp EQUAL  &kp DOLLAR  &kp MINUS    &kp CARET  &kp LESS_THAN  &kp EQUAL             &kp GREATER_THAN  &kp PERIOD       &kp COMMA
-&kp PERCENT  &kp EXCLAMATION    &kp EQUAL        &kp B      &kp A       &kp B        &kp SEMI   &kp SLASH      &kp NON_US_BACKSLASH  &kp EQUAL         &kp EXCLAMATION  &kp GRAVE
-&kp HASH     &kp DOUBLE_QUOTES  &kp SQT          &kp GRAVE  &kp DOLLAR  &trans       &kp UNDER  &kp PLUS       &trans                &trans            &kp PIPE         &kp TILDE
-                                                 &trans     &trans      &trans       &trans     &trans         &trans
+&kp COMMA    &kp PERIOD         &kp EXCLAMATION  &kp EQUAL     &kp DOLLAR    &kp MINUS         &kp CARET  &kp LESS_THAN  &kp EQUAL             &kp GREATER_THAN  &kp PERIOD       &kp COMMA
+&kp PERCENT  &kp EXCLAMATION    &kp EQUAL        &prent_Dance  &brace_Dance  &bracket_Dance    &kp SEMI   &kp SLASH      &kp NON_US_BACKSLASH  &kp EQUAL         &kp EXCLAMATION  &kp GRAVE
+&kp HASH     &kp DOUBLE_QUOTES  &kp SQT          &kp GRAVE     &kp DOLLAR    &trans            &kp UNDER  &kp PLUS       &trans                &trans            &kp PIPE         &kp TILDE
+                                                 &trans        &trans        &trans            &trans     &trans         &trans
             >;
         };
 
@@ -95,7 +261,7 @@
             bindings = <
 &mt TAB EQUAL         &kp N0  &kp N9        &kp N8              &kp N7             &kp N6          &kp DOLLAR   &kp LESS_THAN        &kp EQUAL        &kp GREATER_THAN       &kp HASH            &trans
 &mt LCTRL ASTERISK    &kp N1  &kp N2        &kp N3              &kp N4             &kp NUMBER_5    &kp PERCENT  &mt LEFT_SHIFT PLUS  &mt LCTRL MINUS  &mt LEFT_ALT ASTERISK  &mt LEFT_WIN SLASH  &trans
-&mt LEFT_SHIFT SLASH  &trans  &kp ASTERISK  &mt LEFT_ALT MINUS  &mt LEFT_ALT PLUS  &kp PERCENT     &mo 5        &kp A                &trans           &trans                 &trans              &trans
+&mt LEFT_SHIFT SLASH  &trans  &kp ASTERISK  &mt LEFT_ALT MINUS  &mt LEFT_ALT PLUS  &kp PERCENT     &mo 5        &bracket_Dance       &trans           &trans                 &trans              &trans
                                             &trans              &trans             &trans          &trans       &trans               &trans
             >;
         };
