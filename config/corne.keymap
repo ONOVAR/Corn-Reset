@@ -234,7 +234,7 @@
 
             display-name = "Raise";
             bindings = <
-&kp COMMA    &kp PERIOD         &kp EXCLAMATION  &kp EQUAL     &kp DOLLAR    &kp MINUS         &kp CARET  &kp LESS_THAN  &kp EQUAL             &kp GREATER_THAN  &kp PERIOD       &kp COMMA
+&kp COMMA    &kp PERIOD         &kp EXCLAMATION  &kp EQUAL     &kp PLUS      &kp MINUS         &kp CARET  &kp LESS_THAN  &kp EQUAL             &kp GREATER_THAN  &kp PERIOD       &kp COMMA
 &kp PERCENT  &kp EXCLAMATION    &kp EQUAL        &prent_Dance  &brace_Dance  &bracket_Dance    &kp SEMI   &kp SLASH      &kp NON_US_BACKSLASH  &kp EQUAL         &kp EXCLAMATION  &kp GRAVE
 &kp HASH     &kp DOUBLE_QUOTES  &kp SQT          &kp GRAVE     &kp DOLLAR    &trans            &kp UNDER  &kp PLUS       &trans                &trans            &kp PIPE         &kp TILDE
                                                  &trans        &trans        &trans            &trans     &trans         &trans
@@ -265,6 +265,15 @@
 &trans  &kp F1   &kp F2  &kp F3  &kp F4  &kp F5    &none   &kp F11  &kp F12  &kp F13  &kp F14  &kp F15
 &trans  &trans   &trans  &trans  &trans  &trans    &trans  &kp F21  &kp F22  &kp F23  &kp F24  &trans
                          &trans  &trans  &trans    &trans  &trans   &trans
+            >;
+        };
+
+        Symbols_Invert {
+            bindings = <
+&trans  &trans  &trans  &trans                 &kp MINUS        &trans               &trans  &trans                &kp MINUS  &trans  &trans  &trans
+&trans  &trans  &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET    &trans  &kp NON_US_BACKSLASH  &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans                 &trans           &trans               &trans  &trans                &trans     &trans  &trans  &trans
+                        &trans                 &trans           &trans               &trans  &trans                &trans
             >;
         };
     };
