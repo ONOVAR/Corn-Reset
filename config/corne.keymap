@@ -21,7 +21,6 @@
         Esc_Key {
             bindings = <&kp ESCAPE>;
             key-positions = <14 15>;
-            timeout-ms = <25>;
         };
 
         Print_Screen {
@@ -51,7 +50,6 @@
         Enter_Key {
             bindings = <&kp ENTER>;
             key-positions = <15 16>;
-            timeout-ms = <50>;
         };
 
         bluetooth_Layer {
@@ -132,7 +130,6 @@
         Colon {
             bindings = <&kp COLON>;
             key-positions = <4 17>;
-            timeout-ms = <55>;
         };
 
         Exclamaion {
@@ -140,19 +137,14 @@
             key-positions = <13 14>;
         };
 
-        Alt {
-            bindings = <&kp LEFT_ALT>;
-            key-positions = <37 29>;
-        };
-
-        Arrow_Layer {
-            bindings = <&mo 3>;
-            key-positions = <37 38>;
-        };
-
         Minus {
             bindings = <&kp MINUS>;
             key-positions = <27 28>;
+        };
+
+        Select_All {
+            bindings = <&kp LS(A)>;
+            key-positions = <2 3 4>;
         };
     };
 
