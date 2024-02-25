@@ -9,6 +9,17 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    behaviors {
+        zDance: zDance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "ZDANCE";
+            #binding-cells = <0>;
+            bindings = <&kp Z>, <&kp H>;
+
+            tapping-term-ms = <200>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
