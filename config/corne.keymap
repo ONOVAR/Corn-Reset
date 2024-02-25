@@ -153,42 +153,6 @@
     };
 
     behaviors {
-        hmr: hmr {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HMR";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
-            tapping-term-ms = <140>;
-            flavor = "balanced";
-        };
-
-        prent_Dance: prent_Dance {
-            compatible = "zmk,behavior-tap-dance";
-            label = "PRENT_DANCE";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
-
-            tapping-term-ms = <180>;
-        };
-
-        brace_Dance: brace_Dance {
-            compatible = "zmk,behavior-tap-dance";
-            label = "BRACE_DANCE";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
-        };
-
-        bracket_Dance: bracket_Dance {
-            compatible = "zmk,behavior-tap-dance";
-            label = "BRACKET_DANCE";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
-
-            tapping-term-ms = <180>;
-        };
-
         f_Dance: f_Dance {
             compatible = "zmk,behavior-tap-dance";
             label = "F_DANCE";
