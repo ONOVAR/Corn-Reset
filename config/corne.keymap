@@ -18,20 +18,18 @@
 
             tapping-term-ms = <200>;
         };
-    
-       td_mytd: tap_dance_my {
+
+        td_mytd: tap_dance_my {
             compatible = "zmk,behavior-tap-dance";
+
             label = "TAP_DANCE_MY;
-            #binding-cells = <0>;
+            #
+
+            binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings =
-            <&mt LSHFT SPACE>,
-            <&mo 2>;
+            bindings = <&mt LSHFT SPACE>, <&mo 2>;
         };
-
     };
-
-
 
     keymap {
         compatible = "zmk,keymap";
@@ -45,7 +43,7 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q    &kp W    &kp E           &kp R           &kp T         &kp Y            &kp U        &kp I         &kp O    &kp P     &kp BSLH
+&kp TAB    &kp Q    &kp W    &kp E           &kp R           &td_mytd      &kp Y            &kp U        &kp I         &kp O    &kp P     &kp BSLH
 &kp LCTRL  &lt 3 A  &lt 2 S  &kp D           &kp F           &lt 2 G       &kp H            &kp A        &kp A         &kp B    &kp B     &kp SQT
 &kp LSHFT  &kp Z    &kp X    &mt LEFT_WIN C  &mt LEFT_ALT V  &mt HOME B    &mt HOME N       &kp M        &kp COMMA     &kp DOT  &kp FSLH  &mt F1 RET
                              &mo 4           &kp SPACE       &kp F22       &lt 3 BACKSPACE  &lt 2 SPACE  &lt 4 DELETE
