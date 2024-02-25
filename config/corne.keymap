@@ -152,15 +152,6 @@
         };
     };
 
-    behaviors {
-        f_Dance: f_Dance {
-            compatible = "zmk,behavior-tap-dance";
-            label = "F_DANCE";
-            #binding-cells = <0>;
-            bindings = <&kp A>, <&kp X>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -173,10 +164,10 @@
 
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q    &kp W    &kp E           &kp R           &kp T         &kp Y            &kp U              &kp I         &kp O            &kp P                    &kp BSLH
-&kp LCTRL  &lt 3 A  &lt 2 S  &kp D           &kp F           &lt 2 G       &kp H            &hmr LEFT_SHIFT J  &hmr LCTRL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z    &kp X    &mt LEFT_WIN C  &mt LEFT_ALT V  &mt HOME B    &mt HOME N       &kp M              &kp COMMA     &kp DOT          &kp FSLH                 &mt F1 RET
-                             &mo 4           &kp SPACE       &kp F22       &lt 3 BACKSPACE  &lt 2 SPACE        &lt 4 DELETE
+&kp TAB    &kp Q    &kp W    &kp E           &kp R           &kp T         &kp Y            &kp U        &kp I         &kp O    &kp P     &kp BSLH
+&kp LCTRL  &lt 3 A  &lt 2 S  &kp D           &kp F           &lt 2 G       &kp H            &kp A        &kp A         &kp B    &kp B     &kp SQT
+&kp LSHFT  &kp Z    &kp X    &mt LEFT_WIN C  &mt LEFT_ALT V  &mt HOME B    &mt HOME N       &kp M        &kp COMMA     &kp DOT  &kp FSLH  &mt F1 RET
+                             &mo 4           &kp SPACE       &kp F22       &lt 3 BACKSPACE  &lt 2 SPACE  &lt 4 DELETE
             >;
         };
 
@@ -205,10 +196,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp COMMA    &kp PERIOD         &kp EXCLAMATION  &kp EQUAL     &kp DOLLAR    &kp MINUS         &kp CARET  &kp LESS_THAN  &kp EQUAL             &kp GREATER_THAN  &kp PERIOD       &kp COMMA
-&kp PERCENT  &kp EXCLAMATION    &kp EQUAL        &prent_Dance  &brace_Dance  &bracket_Dance    &kp SEMI   &kp SLASH      &kp NON_US_BACKSLASH  &kp EQUAL         &kp EXCLAMATION  &kp GRAVE
-&kp HASH     &kp DOUBLE_QUOTES  &kp SQT          &kp GRAVE     &kp DOLLAR    &trans            &kp UNDER  &kp PLUS       &trans                &trans            &kp PIPE         &kp TILDE
-                                                 &trans        &trans        &trans            &trans     &trans         &trans
+&kp COMMA    &kp PERIOD         &kp EXCLAMATION  &kp EQUAL  &kp DOLLAR  &kp MINUS    &kp CARET  &kp LESS_THAN  &kp EQUAL             &kp GREATER_THAN  &kp PERIOD       &kp COMMA
+&kp PERCENT  &kp EXCLAMATION    &kp EQUAL        &kp B      &kp A       &kp B        &kp SEMI   &kp SLASH      &kp NON_US_BACKSLASH  &kp EQUAL         &kp EXCLAMATION  &kp GRAVE
+&kp HASH     &kp DOUBLE_QUOTES  &kp SQT          &kp GRAVE  &kp DOLLAR  &trans       &kp UNDER  &kp PLUS       &trans                &trans            &kp PIPE         &kp TILDE
+                                                 &trans     &trans      &trans       &trans     &trans         &trans
             >;
         };
 
@@ -225,7 +216,7 @@
             bindings = <
 &mt TAB EQUAL         &kp N0  &kp N9        &kp N8              &kp N7             &kp N6          &kp DOLLAR   &kp LESS_THAN        &kp EQUAL        &kp GREATER_THAN       &kp HASH            &trans
 &mt LCTRL ASTERISK    &kp N1  &kp N2        &kp N3              &kp N4             &kp NUMBER_5    &kp PERCENT  &mt LEFT_SHIFT PLUS  &mt LCTRL MINUS  &mt LEFT_ALT ASTERISK  &mt LEFT_WIN SLASH  &trans
-&mt LEFT_SHIFT SLASH  &trans  &kp ASTERISK  &mt LEFT_ALT MINUS  &mt LEFT_ALT PLUS  &kp PERCENT     &mo 5        &bracket_Dance       &trans           &trans                 &trans              &trans
+&mt LEFT_SHIFT SLASH  &trans  &kp ASTERISK  &mt LEFT_ALT MINUS  &mt LEFT_ALT PLUS  &kp PERCENT     &mo 5        &kp A                &trans           &trans                 &trans              &trans
                                             &trans              &trans             &trans          &trans       &trans               &trans
             >;
         };
