@@ -188,13 +188,6 @@
 
             tapping-term-ms = <180>;
         };
-
-        f_Dance: f_Dance {
-            compatible = "zmk,behavior-tap-dance";
-            label = "F_DANCE";
-            #binding-cells = <0>;
-            bindings = <&kp A>, <&kp X>;
-        };
     };
 
     keymap {
