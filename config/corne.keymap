@@ -237,7 +237,7 @@
 &kp COMMA    &kp PERIOD         &kp EXCLAMATION  &kp EQUAL     &kp PLUS      &kp MINUS         &kp CARET  &kp LESS_THAN  &kp EQUAL             &kp GREATER_THAN  &kp PERIOD       &kp COMMA
 &kp PERCENT  &kp EXCLAMATION    &kp EQUAL        &prent_Dance  &brace_Dance  &bracket_Dance    &kp SEMI   &kp SLASH      &kp NON_US_BACKSLASH  &kp EQUAL         &kp EXCLAMATION  &kp GRAVE
 &kp HASH     &kp DOUBLE_QUOTES  &kp SQT          &kp GRAVE     &kp DOLLAR    &trans            &kp UNDER  &kp PLUS       &trans                &trans            &kp PIPE         &kp TILDE
-                                                 &trans        &trans        &trans            &trans     &trans         &trans
+                                                 &trans        &trans        &mo 6             &trans     &trans         &trans
             >;
         };
 
