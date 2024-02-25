@@ -18,7 +18,20 @@
 
             tapping-term-ms = <200>;
         };
+    
+       td_mytd: tap_dance_my {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_MY;
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings =
+            <&mt LSHFT SPACE>,
+            <&mo 2>;
+        };
+
     };
+
+
 
     keymap {
         compatible = "zmk,keymap";
