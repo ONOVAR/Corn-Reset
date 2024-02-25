@@ -178,8 +178,6 @@
             label = "BRACE_DANCE";
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
-
-            tapping-term-ms = <180>;
         };
 
         bracket_Dance: bracket_Dance {
