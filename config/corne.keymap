@@ -26,7 +26,6 @@
         Print_Screen {
             bindings = <&kp RC(PRINTSCREEN)>;
             key-positions = <6 7>;
-            timeout-ms = <200>;
         };
 
         F17_PiMenue {
@@ -38,7 +37,7 @@
         F19_PiMenue {
             bindings = <&kp F19>;
             key-positions = <17 5>;
-            timeout-ms = <350>;
+            timeout-ms = <55>;
         };
 
         Delete_Key {
@@ -143,8 +142,13 @@
         };
 
         Select_All {
-            bindings = <&kp LS(A)>;
+            bindings = <&kp LC(A)>;
             key-positions = <2 3 4>;
+        };
+
+        Win {
+            bindings = <&kp LEFT_WIN>;
+            key-positions = <37 38>;
         };
     };
 
