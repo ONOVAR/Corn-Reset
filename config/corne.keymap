@@ -9,15 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    behaviors {
-        F_Dance: F_Dance {
-            compatible = "zmk,behavior-tap-dance";
-            label = "F_DANCE";
-            #binding-cells = <0>;
-            bindings = <&kp F>, <&kp X>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -31,7 +22,7 @@
             display-name = "Base";
             bindings = <
 &kp TAB    &kp Q    &kp W    &kp E           &kp R           &kp T         &kp Y            &kp U        &kp I         &kp O    &kp P     &kp BSLH
-&kp LCTRL  &lt 3 A  &lt 2 S  &kp D           &F_Dance        &lt 2 G       &kp H            &kp A        &kp A         &kp B    &kp B     &kp SQT
+&kp LCTRL  &lt 3 A  &lt 2 S  &kp D           &kp F           &lt 2 G       &kp H            &kp A        &kp A         &kp B    &kp B     &kp SQT
 &kp LSHFT  &kp Z    &kp X    &mt LEFT_WIN C  &mt LEFT_ALT V  &mt HOME B    &mt HOME N       &kp M        &kp COMMA     &kp DOT  &kp FSLH  &mt F1 RET
                              &mo 4           &kp SPACE       &kp F22       &lt 3 BACKSPACE  &lt 2 SPACE  &lt 4 DELETE
             >;
