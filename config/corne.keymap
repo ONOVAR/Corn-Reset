@@ -163,11 +163,11 @@
 
         Finfe {
             bindings = <&kp LC(F)>;
-            key-positions = <16 13>;
+            key-positions = <16 3 2>;
         };
 
-        F1_Key {
-            bindings = <&kp F1>;
+        Alt {
+            bindings = <&kp LEFT_ALT>;
             key-positions = <37 28>;
         };
 
@@ -184,6 +184,11 @@
         Home_R {
             bindings = <&kp HOME>;
             key-positions = <40 30>;
+        };
+
+        Equal_3 {
+            bindings = <&kp EQUAL>;
+            key-positions = <14 15 28>;
         };
     };
 
