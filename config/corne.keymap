@@ -165,6 +165,16 @@
             bindings = <&kp LC(F)>;
             key-positions = <16 13>;
         };
+
+        F1_Key {
+            bindings = <&kp F1>;
+            key-positions = <37 28>;
+        };
+
+        F2_Key {
+            bindings = <&kp F2>;
+            key-positions = <4 5>;
+        };
     };
 
     behaviors {
