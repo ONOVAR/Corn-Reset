@@ -175,6 +175,16 @@
             bindings = <&kp EQUAL>;
             key-positions = <4 5>;
         };
+
+        Home_L {
+            bindings = <&kp HOME>;
+            key-positions = <37 29>;
+        };
+
+        Home_R {
+            bindings = <&kp HOME>;
+            key-positions = <40 30>;
+        };
     };
 
     behaviors {
