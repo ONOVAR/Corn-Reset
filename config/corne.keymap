@@ -180,6 +180,11 @@
             bindings = <&kp F18>;
             key-positions = <16 19>;
         };
+
+        Lang {
+            bindings = <&kp F18>;
+            key-positions = <15 20>;
+        };
     };
 
     behaviors {
