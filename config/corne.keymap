@@ -178,7 +178,12 @@
 
         Language_Combo {
             bindings = <&kp F18>;
-            key-positions = <38 39>;
+            key-positions = <3 8>;
+        };
+
+        Lan {
+            bindings = <&kp F18>;
+            key-positions = <14 21>;
         };
     };
 
