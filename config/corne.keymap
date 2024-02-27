@@ -175,6 +175,11 @@
             bindings = <&kp HOME>;
             key-positions = <40 30>;
         };
+
+        Language_Combo {
+            bindings = <&kp F18>;
+            key-positions = <16 19>;
+        };
     };
 
     behaviors {
