@@ -186,19 +186,9 @@
             key-positions = <32 33>;
         };
 
-        AAA {
-            bindings = <&kp A>;
+        Fast_Type {
+            bindings = <&kp RIGHT_WIN>;
             key-positions = <38 39>;
-        };
-
-        A2 {
-            bindings = <&kp A>;
-            key-positions = <37 40>;
-        };
-
-        A3 {
-            bindings = <&kp A>;
-            key-positions = <36 41>;
         };
     };
 
