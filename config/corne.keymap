@@ -131,11 +131,6 @@
             key-positions = <2 3 4>;
         };
 
-        Win {
-            bindings = <&kp LEFT_WIN>;
-            key-positions = <37 38>;
-        };
-
         Enter_R {
             bindings = <&kp ENTER>;
             key-positions = <19 20>;
