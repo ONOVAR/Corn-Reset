@@ -180,11 +180,6 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <28 29>;
         };
-
-        Save_v2 {
-            bindings = <&kp LC(S)>;
-            key-positions = <13 16>;
-        };
     };
 
     behaviors {
