@@ -187,7 +187,7 @@
         };
 
         Fast_Type {
-            bindings = <&kp F17>;
+            bindings = <&kp F18>;
             key-positions = <38 39>;
         };
     };
