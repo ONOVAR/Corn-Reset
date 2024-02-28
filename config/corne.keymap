@@ -190,6 +190,11 @@
             bindings = <&kp SEMICOLON>;
             key-positions = <32 33>;
         };
+
+        M_Function {
+            bindings = <&m_type_Function>;
+            key-positions = <16 7>;
+        };
     };
 
     behaviors {
@@ -229,6 +234,18 @@
             bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
 
             tapping-term-ms = <250>;
+        };
+    };
+
+    macros {
+        m_type_Function: type_Function {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp F &kp U &kp N &kp C &kp T &kp I &kp O &kp N>,
+                <&macro_tap>;
+
+            label = "TYPE_FUNCTION";
         };
     };
 
