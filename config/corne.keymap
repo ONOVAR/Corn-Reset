@@ -319,12 +319,12 @@
             >;
         };
 
-        layer_7 {
+        Fast_Type {
             bindings = <
-&trans  &trans  &trans  &trans      &trans       &trans             &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp RG(F1)  &kp RG(F13)  &kp LS(RG(F22))    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans      &trans       &trans             &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans      &trans       &trans             &trans  &trans  &trans
+&none  &kp RC(Q)  &kp RC(W)  &kp RC(E)  &kp RC(R)  &kp RC(T)    &kp RC(Y)  &kp RC(U)  &kp RC(I)  &kp RC(O)  &kp RC(P)  &none
+&none  &kp RC(A)  &kp RC(S)  &kp RC(D)  &kp RC(F)  &kp RC(G)    &kp RC(H)  &kp RC(J)  &kp RC(K)  &kp RC(L)  &none      &none
+&none  &kp RC(Z)  &kp X      &kp C      &kp V      &kp B        &kp RC(N)  &kp RC(M)  &none      &none      &none      &none
+                             &none      &none      &none        &none      &none      &none
             >;
         };
     };
