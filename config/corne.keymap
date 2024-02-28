@@ -194,6 +194,8 @@
         M_Function {
             bindings = <&m_type_Function>;
             key-positions = <16 7>;
+            layers = <7>;
+            timeout-ms = <350>;
         };
     };
 
@@ -215,7 +217,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
 
-            tapping-term-ms = <250>;
+            tapping-term-ms = <200>;
         };
 
         brace_Dance: brace_Dance {
@@ -224,7 +226,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
 
-            tapping-term-ms = <250>;
+            tapping-term-ms = <200>;
         };
 
         bracket_Dance: bracket_Dance {
@@ -233,7 +235,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
 
-            tapping-term-ms = <250>;
+            tapping-term-ms = <200>;
         };
     };
 
@@ -262,7 +264,7 @@
             display-name = "Base";
             bindings = <
 &mt LEFT_WIN TAB  &kp Q    &kp W     &kp E           &kp R           &kp T         &kp Y            &kp U              &kp I         &kp O            &kp P                    &kp BSLH
-&kp LCTRL         &lt 3 A  &lt 2 S   &kp D           &kp F           &lt 2 G       &kp H            &hmr LEFT_SHIFT J  &hmr LCTRL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMICOLON  &kp SQT
+&kp LCTRL         &lt 3 A  &lt 2 S   &kp D           &kp F           &lt 2 G       &kp H            &hmr LEFT_SHIFT J  &hmr LCTRL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMICOLON  &lt 7 SQT
 &kp LSHFT         &kp Z    &mt F1 X  &mt LEFT_WIN C  &mt LEFT_ALT V  &mt HOME B    &mt HOME N       &kp M              &kp COMMA     &kp DOT          &kp FSLH                 &mt F1 RET
                                      &mo 4           &kp SPACE       &kp F22       &lt 3 BACKSPACE  &lt 2 SPACE        &lt 4 DELETE
             >;
@@ -333,6 +335,15 @@
 &trans  &trans  &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET    &trans  &trans  &trans     &trans  &trans  &trans
 &trans  &trans  &trans  &trans                 &trans           &trans               &trans  &trans  &trans     &trans  &trans  &trans
                         &trans                 &trans           &trans               &trans  &trans  &trans
+            >;
+        };
+
+        Fast_Type {
+            bindings = <
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+                     &none  &none  &none    &none  &none  &none
             >;
         };
     };
