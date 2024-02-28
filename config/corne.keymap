@@ -56,14 +56,9 @@
             key-positions = <6 7 8 9>;
         };
 
-        Backspace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <0 1>;
-        };
-
         Delete {
             bindings = <&kp DELETE>;
-            key-positions = <12 13>;
+            key-positions = <0 1>;
         };
 
         S_Comma {
@@ -184,6 +179,11 @@
         BackSpace_2 {
             bindings = <&kp BACKSPACE>;
             key-positions = <28 29>;
+        };
+
+        Save_v2 {
+            bindings = <&kp LC(S)>;
+            key-positions = <13 16>;
         };
     };
 
