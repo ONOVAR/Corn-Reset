@@ -13,8 +13,8 @@
         compatible = "zmk,combos";
 
         Refresh {
-            bindings = <&kp LS(F5)>;
-            key-positions = <26 27 28>;
+            bindings = <&kp F5>;
+            key-positions = <2 15>;
             timeout-ms = <25>;
         };
 
@@ -89,16 +89,6 @@
         Language {
             bindings = <&kp F18>;
             key-positions = <16 17>;
-        };
-
-        Home {
-            bindings = <&kp HOME>;
-            key-positions = <2 15>;
-        };
-
-        End {
-            bindings = <&kp END>;
-            key-positions = <14 3>;
         };
 
         Ampersand {
