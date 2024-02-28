@@ -222,9 +222,9 @@
             tapping-term-ms = <250>;
         };
 
-        new_behavior: new_behavior {
+        bracket_Dance: bracket_Dance {
             compatible = "zmk,behavior-tap-dance";
-            label = "NEW_BEHAVIOR";
+            label = "BRACKET_DANCE";
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
 
