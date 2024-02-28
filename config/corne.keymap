@@ -210,7 +210,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
 
-            tapping-term-ms = <180>;
+            tapping-term-ms = <250>;
         };
 
         brace_Dance: brace_Dance {
@@ -219,7 +219,16 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
 
-            tapping-term-ms = <350>;
+            tapping-term-ms = <250>;
+        };
+
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-tap-dance";
+            label = "NEW_BEHAVIOR";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
+
+            tapping-term-ms = <250>;
         };
     };
 
