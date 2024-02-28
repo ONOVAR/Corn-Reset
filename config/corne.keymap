@@ -190,6 +190,21 @@
             bindings = <&kp SEMICOLON>;
             key-positions = <32 33>;
         };
+
+        AAA {
+            bindings = <&kp A>;
+            key-positions = <38 39>;
+        };
+
+        A2 {
+            bindings = <&kp A>;
+            key-positions = <37 40>;
+        };
+
+        A3 {
+            bindings = <&kp A>;
+            key-positions = <36 41>;
+        };
     };
 
     behaviors {
@@ -245,7 +260,7 @@
             display-name = "Base";
             bindings = <
 &mt LEFT_WIN TAB  &kp Q    &kp W     &kp E           &kp R           &kp T         &kp Y            &kp U              &kp I         &kp O            &kp P                    &kp BSLH
-&kp LCTRL         &lt 3 A  &lt 2 S   &kp D           &kp F           &lt 2 G       &kp H            &hmr LEFT_SHIFT J  &hmr LCTRL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMICOLON  &lt 7 SQT
+&kp LCTRL         &lt 3 A  &lt 2 S   &kp D           &kp F           &lt 2 G       &kp H            &hmr LEFT_SHIFT J  &hmr LCTRL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMICOLON  &kp SINGLE_QUOTE
 &kp LSHFT         &kp Z    &mt F1 X  &mt LEFT_WIN C  &mt LEFT_ALT V  &mt HOME B    &mt HOME N       &kp M              &kp COMMA     &kp DOT          &kp FSLH                 &mt F1 RET
                                      &mo 4           &kp SPACE       &kp F22       &lt 3 BACKSPACE  &lt 2 SPACE        &lt 4 DELETE
             >;
@@ -316,15 +331,6 @@
 &trans  &trans  &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET    &trans  &trans  &trans     &trans  &trans  &trans
 &trans  &trans  &trans  &trans                 &trans           &trans               &trans  &trans  &trans     &trans  &trans  &trans
                         &trans                 &trans           &trans               &trans  &trans  &trans
-            >;
-        };
-
-        Fast_Type {
-            bindings = <
-&trans  &trans                 &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp RS(RA(RC(RG(A))))  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans                 &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                       &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
