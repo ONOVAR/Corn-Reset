@@ -58,7 +58,7 @@
 
         Delete {
             bindings = <&kp DELETE>;
-            key-positions = <0 1>;
+            key-positions = <12 13>;
         };
 
         S_Comma {
@@ -179,6 +179,16 @@
         BackSpace_2 {
             bindings = <&kp BACKSPACE>;
             key-positions = <28 29>;
+        };
+
+        BackSpace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <0 1>;
+        };
+
+        SemiColon_R {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <32 33>;
         };
     };
 
