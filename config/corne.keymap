@@ -210,7 +210,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <220>;
         };
 
         brace_Dance: brace_Dance {
@@ -219,7 +219,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACE>, <&kp RIGHT_BRACE>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <220>;
         };
 
         bracket_Dance: bracket_Dance {
@@ -228,7 +228,7 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACKET>, <&kp RIGHT_BRACKET>;
 
-            tapping-term-ms = <200>;
+            tapping-term-ms = <220>;
         };
     };
 
