@@ -171,8 +171,8 @@
             key-positions = <4 5>;
         };
 
-        BackSpace_2 {
-            bindings = <&kp BACKSPACE>;
+        Equal {
+            bindings = <&kp EQUAL>;
             key-positions = <28 29>;
         };
 
@@ -189,6 +189,11 @@
         Fast_Type {
             bindings = <&kp F13>;
             key-positions = <38 39>;
+        };
+
+        Eq {
+            bindings = <&kp EQUAL>;
+            key-positions = <14 28>;
         };
     };
 
@@ -287,10 +292,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp TAB         &kp AT_SIGN    &kp EXCLAMATION    &kp EQUAL     &kp PLUS      &kp MINUS         &kp COLON    &kp LESS_THAN  &kp EQUAL      &kp GREATER_THAN  &kp TILDE             &kp CARET
-&kp LCTRL       &kp LESS_THAN  &kp COLON          &prent_Dance  &brace_Dance  &bracket_Dance    &kp SEMI     &kp SLASH      &kp AMPERSAND  &kp PIPE          &kp NON_US_BACKSLASH  &kp UNDERSCORE
-&kp LEFT_SHIFT  &kp SQT        &kp DOUBLE_QUOTES  &kp GRAVE     &kp DOLLAR    &kp HASH          &kp PERCENT  &kp ASTERISK   &trans         &trans            &kp QUESTION          &trans
-                                                  &trans        &trans        &kp PERCENT       &trans       &trans         &trans
+&kp TAB         &kp COLON      &kp EXCLAMATION    &kp EQUAL     &kp PLUS      &kp MINUS         &kp COLON    &kp LESS_THAN  &kp EQUAL      &kp GREATER_THAN  &kp TILDE             &kp CARET
+&kp LCTRL       &kp LESS_THAN  &kp SEMICOLON      &prent_Dance  &brace_Dance  &bracket_Dance    &kp SEMI     &kp SLASH      &kp AMPERSAND  &kp PIPE          &kp NON_US_BACKSLASH  &kp UNDERSCORE
+&kp LEFT_SHIFT  &kp SQT        &kp DOUBLE_QUOTES  &kp GRAVE     &kp DOLLAR    &kp AT_SIGN       &kp PERCENT  &kp ASTERISK   &trans         &trans            &kp QUESTION          &trans
+                                                  &kp HASH      &trans        &kp PERCENT       &trans       &trans         &trans
             >;
         };
 
@@ -307,8 +312,8 @@
             bindings = <
 &mt LEFT_WIN TAB      &kp N0   &kp N9        &kp N8              &kp N7             &kp N6          &kp DOLLAR   &kp LESS_THAN        &kp EQUAL        &kp GREATER_THAN       &kp HASH            &trans
 &mt LCTRL ASTERISK    &kp N1   &kp N2        &kp N3              &kp N4             &kp NUMBER_5    &kp PERCENT  &mt LEFT_SHIFT PLUS  &mt LCTRL MINUS  &mt LEFT_ALT ASTERISK  &mt LEFT_WIN SLASH  &trans
-&mt LEFT_SHIFT SLASH  &lt 5 Z  &kp ASTERISK  &mt LEFT_WIN MINUS  &mt LEFT_ALT PLUS  &kp PERCENT     &mo 5        &brace_Dance         &trans           &trans                 &trans              &trans
-                                             &trans              &trans             &kp EQUAL       &trans       &trans               &trans
+&mt LEFT_SHIFT SLASH  &lt 5 Z  &kp ASTERISK  &mt LEFT_WIN MINUS  &mt LEFT_ALT PLUS  &kp EQUAL       &mo 5        &brace_Dance         &trans           &trans                 &trans              &trans
+                                             &trans              &trans             &kp PERCENT     &trans       &trans               &trans
             >;
         };
 
