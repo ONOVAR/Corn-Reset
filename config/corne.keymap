@@ -158,7 +158,7 @@
 
         Lan {
             bindings = <&kp F18>;
-            key-positions = <14 21>;
+            key-positions = <37 40>;
         };
 
         Save {
