@@ -301,10 +301,10 @@
 
         Arrow {
             bindings = <
-&none   &none   &kp HOME  &kp UP          &kp END            &kp LC(HOME)    &kp PAGE_UP        &kp HOME                   &kp UP          &kp END             &none             &none
-&trans  &none   &kp LEFT  &kp DOWN        &kp RIGHT          &kp LC(END)     &kp PAGE_DOWN      &mt LEFT_SHIFT LEFT_ARROW  &mt LCTRL DOWN  &mt LEFT_ALT RIGHT  &mt LEFT_WIN F24  &none
-&trans  &trans  &none     &none           &kp LC(BACKSPACE)  &kp LC(DEL)     &kp LC(BACKSPACE)  &kp RC(DEL)                &none           &none               &none             &none
-                          &kp LEFT_SHIFT  &kp LCTRL          &kp LEFT_ALT    &kp LEFT_ALT       &kp LCTRL                  &kp LEFT_SHIFT
+&trans  &kp C_VOLUME_UP    &kp HOME  &kp UP          &kp END            &kp LC(HOME)    &kp PAGE_UP        &kp HOME                   &kp UP          &kp END             &kp C_VOLUME_UP             &none
+&trans  &kp C_VOLUME_DOWN  &kp LEFT  &kp DOWN        &kp RIGHT          &kp LC(END)     &kp PAGE_DOWN      &mt LEFT_SHIFT LEFT_ARROW  &mt LCTRL DOWN  &mt LEFT_ALT RIGHT  &mt LEFT_WIN C_VOLUME_DOWN  &none
+&trans  &kp K_MUTE         &none     &none           &kp LC(BACKSPACE)  &kp LC(DEL)     &kp LC(BACKSPACE)  &kp RC(DEL)                &none           &none               &kp K_MUTE                  &none
+                                     &kp LEFT_SHIFT  &kp LCTRL          &kp LEFT_ALT    &kp LEFT_ALT       &kp LCTRL                  &kp LEFT_SHIFT
             >;
         };
 
