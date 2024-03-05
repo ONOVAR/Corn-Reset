@@ -158,7 +158,7 @@
 
         Lan {
             bindings = <&kp F18>;
-            key-positions = <37 40>;
+            key-positions = <38 39>;
         };
 
         Save {
@@ -169,11 +169,6 @@
         Finde {
             bindings = <&kp LC(F)>;
             key-positions = <4 5>;
-        };
-
-        Equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <28 29>;
         };
 
         BackSpace {
@@ -188,7 +183,7 @@
 
         Fast_Type {
             bindings = <&kp F13>;
-            key-positions = <38 39>;
+            key-positions = <37 40>;
         };
 
         Eq {
