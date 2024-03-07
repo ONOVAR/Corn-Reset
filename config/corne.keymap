@@ -25,7 +25,7 @@
 
         Print_Screen {
             bindings = <&kp RC(PRINTSCREEN)>;
-            key-positions = <6 7>;
+            key-positions = <6 39>;
         };
 
         F17_PiMenue {
@@ -257,7 +257,7 @@
             bindings = <
 &mt LEFT_WIN TAB  &kp Q    &kp W     &kp E           &kp R           &kp T         &kp Y            &kp U              &kp I         &kp O            &kp P                    &kp BSLH
 &kp LCTRL         &lt 3 A  &lt 2 S   &kp D           &kp F           &lt 2 G       &kp H            &hmr LEFT_SHIFT J  &hmr LCTRL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMICOLON  &kp SINGLE_QUOTE
-&kp LSHFT         &kp Z    &mt F1 X  &mt LEFT_WIN C  &mt LEFT_ALT V  &mt HOME B    &mt HOME N       &kp M              &kp COMMA     &kp DOT          &kp FSLH                 &mt F1 RET
+&kp LSHFT         &kp Z    &mt F1 X  &mt LEFT_WIN C  &mt LEFT_ALT V  &mt HOME B    &mt HOME N       &kp M              &kp COMMA     &kp DOT          &kp FSLH                 &kp ENTER
                                      &mo 4           &kp SPACE       &kp F22       &lt 3 BACKSPACE  &lt 2 SPACE        &lt 4 DELETE
             >;
         };
