@@ -30,13 +30,13 @@
 
         F17_PiMenue {
             bindings = <&kp F17>;
-            key-positions = <17 29>;
+            key-positions = <17 38>;
             timeout-ms = <50>;
         };
 
         F19_PiMenue {
             bindings = <&kp F19>;
-            key-positions = <17 5>;
+            key-positions = <5 38>;
             timeout-ms = <55>;
         };
 
