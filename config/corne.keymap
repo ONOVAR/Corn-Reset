@@ -81,8 +81,8 @@
             key-positions = <3 16>;
         };
 
-        Language {
-            bindings = <&kp F18>;
+        Save {
+            bindings = <&kp RC(S)>;
             key-positions = <16 17>;
         };
 
@@ -161,7 +161,7 @@
             key-positions = <38 39>;
         };
 
-        Save {
+        Saved {
             bindings = <&kp LC(S)>;
             key-positions = <26 27>;
         };
