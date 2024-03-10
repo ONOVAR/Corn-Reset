@@ -255,10 +255,10 @@
 
             display-name = "Base";
             bindings = <
-&mt LEFT_WIN TAB  &kp Q    &kp W     &kp E           &kp R           &kp T         &kp Y            &kp U              &kp I         &kp O            &kp P                    &kp HOME
-&kp LCTRL         &lt 3 A  &lt 2 S   &kp D           &kp F           &lt 2 G       &kp H            &hmr LEFT_SHIFT J  &hmr LCTRL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMICOLON  &kp SINGLE_QUOTE
-&kp LSHFT         &kp Z    &mt F1 X  &mt LEFT_WIN C  &mt LEFT_ALT V  &mt HOME B    &kp N            &kp M              &kp COMMA     &kp DOT          &kp FSLH                 &kp ENTER
-                                     &mo 4           &kp SPACE       &kp F22       &lt 3 BACKSPACE  &lt 2 SPACE        &lt 4 DELETE
+&mt LEFT_WIN TAB  &kp Q           &kp W     &kp E  &kp R           &kp T         &kp Y            &kp U              &kp I         &kp O            &kp P                    &kp HOME
+&kp LCTRL         &lt 3 A         &lt 2 S   &kp D  &kp F           &lt 2 G       &kp H            &hmr LEFT_SHIFT J  &hmr LCTRL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMICOLON  &kp SINGLE_QUOTE
+&kp LSHFT         &mt LEFT_WIN Z  &mt F1 X  &kp C  &mt LEFT_ALT V  &mt HOME B    &kp N            &kp M              &kp COMMA     &kp DOT          &kp FSLH                 &kp ENTER
+                                            &mo 4  &kp SPACE       &kp F22       &lt 3 BACKSPACE  &lt 2 SPACE        &lt 4 DELETE
             >;
         };
 
@@ -305,10 +305,10 @@
 
         Number {
             bindings = <
-&mt LEFT_WIN TAB      &kp N0   &kp N9        &kp N8              &kp N7             &kp N6          &kp DOLLAR   &kp LESS_THAN        &kp EQUAL        &kp GREATER_THAN       &kp HASH            &trans
-&mt LCTRL ASTERISK    &kp N1   &kp N2        &kp N3              &kp N4             &kp NUMBER_5    &kp PERCENT  &mt LEFT_SHIFT PLUS  &mt LCTRL MINUS  &mt LEFT_ALT ASTERISK  &mt LEFT_WIN SLASH  &trans
-&mt LEFT_SHIFT SLASH  &lt 5 Z  &kp ASTERISK  &mt LEFT_WIN MINUS  &mt LEFT_ALT PLUS  &kp EQUAL       &mo 5        &bracket_Dance       &trans           &trans                 &trans              &trans
-                                             &trans              &trans             &kp PERCENT     &trans       &trans               &trans
+&mt LEFT_WIN TAB      &kp N0   &kp N9        &kp N8     &kp N7             &kp N6          &kp DOLLAR   &kp LESS_THAN        &kp EQUAL        &kp GREATER_THAN       &kp HASH            &trans
+&mt LCTRL ASTERISK    &kp N1   &kp N2        &kp N3     &kp N4             &kp NUMBER_5    &kp PERCENT  &mt LEFT_SHIFT PLUS  &mt LCTRL MINUS  &mt LEFT_ALT ASTERISK  &mt LEFT_WIN SLASH  &trans
+&mt LEFT_SHIFT SLASH  &lt 5 Z  &kp ASTERISK  &kp MINUS  &mt LEFT_ALT PLUS  &kp EQUAL       &mo 5        &bracket_Dance       &trans           &trans                 &trans              &trans
+                                             &trans     &trans             &kp PERCENT     &trans       &trans               &trans
             >;
         };
 
