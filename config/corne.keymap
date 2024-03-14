@@ -190,6 +190,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <14 28>;
         };
+
+        Save_R {
+            bindings = <&kp LC(S)>;
+            key-positions = <18 19>;
+        };
     };
 
     behaviors {
