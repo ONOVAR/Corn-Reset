@@ -195,6 +195,11 @@
             bindings = <&kp LC(S)>;
             key-positions = <18 19>;
         };
+
+        New_Delete {
+            bindings = <&kp RG(BACKSPACE)>;
+            key-positions = <28 29>;
+        };
     };
 
     behaviors {
