@@ -166,11 +166,6 @@
             key-positions = <26 27>;
         };
 
-        Finde {
-            bindings = <&kp LC(F)>;
-            key-positions = <4 5>;
-        };
-
         BackSpace {
             bindings = <&kp BACKSPACE>;
             key-positions = <0 1>;
@@ -251,7 +246,6 @@
             tapping-term-ms = <55>;
             flavor = "balanced";
         };
-
     };
 
     keymap {
