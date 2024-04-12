@@ -251,6 +251,13 @@
             tapping-term-ms = <55>;
             flavor = "balanced";
         };
+
+       global_hold_tap: behavior-hold-tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_TAP";
+            #binding-cells = <2>; /* key, layer */
+            tapping-term-ms = <100>; // Set global tapping term
+        };
     };
 
 
@@ -266,6 +273,7 @@
 
             display-name = "Base";
             bindings = <
+&global_hold_tap LAYER_2 SPACE // Example usage
 &mt LEFT_WIN TAB  &kp Q           &kp W     &kp E  &kp R           &kp T         &kp Y            &kp U              &kp I         &kp O            &kp P                    &kp HOME
 &kp LCTRL         &lt 3 A         &lt 2 S   &kp D  &kp F           &lt 2 G       &kp H            &hmr LEFT_SHIFT J  &hmr LCTRL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMICOLON  &kp SINGLE_QUOTE
 &kp LSHFT         &mt LEFT_WIN Z  &mt F1 X  &kp C  &mt LEFT_ALT V  &mt HOME B    &kp N            &kp M              &kp COMMA     &kp DOT          &kp FSLH                 &kp ENTER
