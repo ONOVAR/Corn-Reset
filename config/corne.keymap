@@ -81,11 +81,6 @@
             key-positions = <3 16>;
         };
 
-        Save {
-            bindings = <&kp RC(S)>;
-            key-positions = <16 17>;
-        };
-
         Ampersand {
             bindings = <&kp AMPERSAND>;
             key-positions = <15 28>;
@@ -184,16 +179,6 @@
         Eq {
             bindings = <&kp EQUAL>;
             key-positions = <14 28>;
-        };
-
-        Save_R {
-            bindings = <&kp LC(S)>;
-            key-positions = <18 19>;
-        };
-
-        New_Delete {
-            bindings = <&kp LC(F17)>;
-            key-positions = <28 29>;
         };
     };
 
@@ -294,7 +279,7 @@
             bindings = <
 &kp TAB         &kp COLON      &kp EXCLAMATION    &kp EQUAL     &kp PLUS      &kp MINUS         &kp COLON    &kp LESS_THAN  &kp EQUAL      &kp GREATER_THAN  &kp TILDE             &kp CARET
 &kp LCTRL       &kp LESS_THAN  &kp SEMICOLON      &prent_Dance  &brace_Dance  &bracket_Dance    &kp SEMI     &kp SLASH      &kp AMPERSAND  &kp PIPE          &kp NON_US_BACKSLASH  &kp UNDERSCORE
-&kp LEFT_SHIFT  &kp SQT        &kp DOUBLE_QUOTES  &kp GRAVE     &kp DOLLAR    &kp AT_SIGN       &kp PERCENT  &kp ASTERISK   &trans         &trans            &kp QUESTION          &trans
+&kp LEFT_SHIFT  &kp SQT        &kp DOUBLE_QUOTES  &kp GRAVE     &kp DOLLAR    &kp AT_SIGN       &kp PERCENT  &kp HASH       &trans         &trans            &kp QUESTION          &trans
                                                   &kp HASH      &trans        &kp PERCENT       &trans       &trans         &trans
             >;
         };
