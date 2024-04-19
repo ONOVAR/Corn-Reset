@@ -151,8 +151,8 @@
             key-positions = <38 39>;
         };
 
-        Saved {
-            bindings = <&kp LC(S)>;
+        Close {
+            bindings = <&kp LC(W)>;
             key-positions = <26 27 28>;
         };
 
@@ -176,14 +176,9 @@
             key-positions = <14 28>;
         };
 
-        Delete_Line {
-            bindings = <&kp LC(F17)>;
-            key-positions = <13 16>;
-        };
-
-        Save {
-            bindings = <&kp LC(S)>;
-            key-positions = <12 14>;
+        Ctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <37 38>;
         };
     };
 
