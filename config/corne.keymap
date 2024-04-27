@@ -180,6 +180,11 @@
             bindings = <&kp LCTRL>;
             key-positions = <37 38>;
         };
+
+        Line_UpDown {
+            bindings = <&macro_Alt_Arrows>;
+            key-positions = <13 38>;
+        };
     };
 
     behaviors {
@@ -250,6 +255,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <150>;
             flavor = "balanced";
+        };
+    };
+
+    macros {
+        macro_Alt_Arrows: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&mo 3 &kp LEFT_ALT>;
+            label = "NEW_MACRO";
         };
     };
 
