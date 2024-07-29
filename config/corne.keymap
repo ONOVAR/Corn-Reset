@@ -343,10 +343,10 @@
 
         Move_Line {
             bindings = <
-&none  &none  &none     &kp LA(UP)    &none      &none    &none  &none     &kp LA(UP)    &none      &none  &none
-&none  &none  &kp LEFT  &kp LA(DOWN)  &kp RIGHT  &none    &none  &kp LEFT  &kp LA(DOWN)  &kp RIGHT  &none  &none
-&none  &none  &none     &none         &none      &none    &none  &none     &none         &none      &none  &none
-                        &none         &none      &none    &none  &none     &none
+&none  &none  &kp HOME  &kp LA(UP)    &kp END    &kp LC(HOME)    &kp LC(HOME)  &kp HOME  &kp LA(UP)    &kp END    &none  &none
+&none  &none  &kp LEFT  &kp LA(DOWN)  &kp RIGHT  &kp LC(END)     &kp LC(END)   &kp LEFT  &kp LA(DOWN)  &kp RIGHT  &none  &none
+&none  &none  &none     &none         &none      &none           &none         &none     &none         &none      &none  &none
+                        &none         &none      &none           &none         &none     &none
             >;
         };
     };
