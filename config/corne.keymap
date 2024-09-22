@@ -180,6 +180,11 @@
             bindings = <&mo 6>;
             key-positions = <13 38>;
         };
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <16 17>;
+        };
     };
 
     behaviors {
