@@ -181,9 +181,14 @@
             key-positions = <13 38>;
         };
 
-        Tab {
+        Tab_L {
             bindings = <&kp TAB>;
             key-positions = <16 17>;
+        };
+
+        Tab_R {
+            bindings = <&kp TAB>;
+            key-positions = <18 19>;
         };
     };
 
