@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 
 / {
     combos {
@@ -263,6 +264,16 @@
         };
     };
 
+    macros {
+        ContextMenu: ContextMenu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(F10)>, <&macro_wait_time 10>, <&kp HOME>;
+
+            label = "CONTEXTMENU";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -318,7 +329,7 @@
             bindings = <
 &trans  &kp C_VOLUME_UP    &kp HOME  &kp UP     &kp END            &kp LC(HOME)    &kp PAGE_UP        &kp HOME        &kp UP_ARROW    &kp END    &kp C_VOLUME_UP             &none
 &trans  &kp C_VOLUME_DOWN  &kp LEFT  &kp DOWN   &kp RIGHT          &kp LC(END)     &kp PAGE_DOWN      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &mt LEFT_WIN C_VOLUME_DOWN  &none
-&trans  &kp C_MUTE         &none     &none      &kp LC(BACKSPACE)  &kp LC(DEL)     &kp LC(BACKSPACE)  &kp RC(DEL)     &none           &none      &kp C_MUTE                  &none
+&trans  &kp C_MUTE         &none     &none      &kp LC(BACKSPACE)  &ContextMenu    &kp LC(BACKSPACE)  &kp RC(DEL)     &mkp RCLK       &none      &kp C_MUTE                  &none
                                      &kp LCTRL  &kp LEFT_SHIFT     &kp LEFT_ALT    &kp LEFT_ALT       &kp LEFT_SHIFT  &kp LCTRL
             >;
         };
