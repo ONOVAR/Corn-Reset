@@ -267,7 +267,7 @@
         ContextMenu: ContextMenu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(F10)>, <&macro_wait_time 10>, <&kp HOME>;
+            bindings = <&kp LS(F10)>, <&macro_wait_time 55>, <&kp HOME>;
 
             label = "CONTEXTMENU";
         };
