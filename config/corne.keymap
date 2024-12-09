@@ -25,13 +25,7 @@
 
         Print_Screen {
             bindings = <&kp RC(PRINTSCREEN)>;
-            key-positions = <6 39>;
-        };
-
-        F17_PiMenue {
-            bindings = <&kp F17>;
-            key-positions = <17 38>;
-            timeout-ms = <50>;
+            key-positions = <38 17>;
         };
 
         F19_PiMenue {
