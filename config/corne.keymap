@@ -116,7 +116,7 @@
         };
 
         Enter_R {
-            bindings = <&kp ENTER>;
+            bindings = <&hmr LS(LEFT_CONTROL) ENTER>;
             key-positions = <19 20>;
         };
 
