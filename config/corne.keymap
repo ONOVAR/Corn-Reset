@@ -121,7 +121,7 @@
         };
 
         Esc_R {
-            bindings = <&kp ESCAPE>;
+            bindings = <&mt LA(LCTRL) ESC>;
             key-positions = <20 21>;
         };
 
@@ -188,6 +188,16 @@
         Save {
             bindings = <&kp LC(S)>;
             key-positions = <12 14>;
+        };
+
+        Alt+Shift {
+            bindings = <&mt LA(LEFT_SHIFT) GRAVE>;
+            key-positions = <19 21>;
+        };
+
+        Shift+Alt+Ctrl {
+            bindings = <&kp LS(LC(LEFT_ALT))>;
+            key-positions = <19 20 21>;
         };
     };
 
