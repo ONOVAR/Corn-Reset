@@ -111,7 +111,7 @@
         };
 
         Mirror {
-            bindings = <&to 7>;
+            bindings = <&sl 7>;
             key-positions = <2 3 4>;
         };
 
@@ -391,10 +391,10 @@
 
         layer_7 {
             bindings = <
-&trans  &kp P           &kp O    &kp I      &kp U                     &kp Y                           &none  &none  &none  &none  &none  &none
-&trans  &kp SEMI        &kp L    &kp K      &kp J                     &ctrl_behavior LCTRL H          &none  &none  &none  &none  &none  &none
-&trans  &mt LWIN SLASH  &kp DOT  &kp COMMA  &alt_behavior LEFT_ALT M  &shift_behavior LEFT_SHIFT N    &none  &none  &none  &none  &none  &none
-                                 &trans     &trans                    &trans                          &none  &none  &none
+&trans          &kp P           &kp O    &kp I      &kp U                     &kp Y                           &none  &none  &none  &none  &none  &none
+&trans          &kp SEMI        &kp L    &kp K      &kp J                     &ctrl_behavior LCTRL H          &none  &none  &none  &none  &none  &none
+&kp LEFT_SHIFT  &mt LWIN SLASH  &kp DOT  &kp COMMA  &alt_behavior LEFT_ALT M  &shift_behavior LEFT_SHIFT N    &none  &none  &none  &none  &none  &none
+                                         &trans     &trans                    &trans                          &none  &none  &none
             >;
         };
     };
