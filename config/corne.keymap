@@ -111,7 +111,7 @@
         };
 
         Mirror {
-            bindings = <&mo 7>;
+            bindings = <&sl 7>;
             key-positions = <2 3 4>;
         };
 
