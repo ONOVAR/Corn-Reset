@@ -28,12 +28,6 @@
             key-positions = <38 17>;
         };
 
-        F19_PiMenue {
-            bindings = <&kp F19>;
-            key-positions = <5 38>;
-            timeout-ms = <55>;
-        };
-
         Delete_Key {
             bindings = <&kp DEL>;
             key-positions = <10 11>;
@@ -110,8 +104,8 @@
             key-positions = <27 28>;
         };
 
-        Mirror {
-            bindings = <&sl 7>;
+        Select_All {
+            bindings = <&kp LC(A)>;
             key-positions = <2 3 4>;
         };
 
@@ -160,8 +154,8 @@
             key-positions = <37 40>;
         };
 
-        Ctrl {
-            bindings = <&kp LCTRL>;
+        Mirror_Right_Side {
+            bindings = <&mo 7>;
             key-positions = <37 38>;
         };
 
