@@ -14,7 +14,7 @@
 
         Refresh {
             bindings = <&kp F5>;
-            key-positions = <2 15>;
+            key-positions = <14 1 1 14>;
             timeout-ms = <25>;
         };
 
@@ -28,12 +28,6 @@
             key-positions = <38 17>;
         };
 
-        Delete_Key {
-            bindings = <&kp DEL>;
-            key-positions = <10 11>;
-            timeout-ms = <25>;
-        };
-
         Enter_Key {
             bindings = <&kp ENTER>;
             key-positions = <15 16>;
@@ -44,18 +38,8 @@
             key-positions = <7 8 9>;
         };
 
-        Delete {
-            bindings = <&kp DELETE>;
-            key-positions = <12 13>;
-        };
-
-        S_Comma {
+        Comma {
             bindings = <&kp COMMA>;
-            key-positions = <1 2>;
-        };
-
-        S_Period {
-            bindings = <&kp PERIOD>;
             key-positions = <2 3>;
         };
 
@@ -104,8 +88,8 @@
             key-positions = <27 28>;
         };
 
-        Select_All {
-            bindings = <&kp LC(A)>;
+        Period {
+            bindings = <&kp PERIOD>;
             key-positions = <2 3 4>;
         };
 
@@ -179,11 +163,6 @@
             key-positions = <18 19>;
         };
 
-        Save {
-            bindings = <&kp LC(S)>;
-            key-positions = <12 14>;
-        };
-
         Alt+Shift {
             bindings = <&mt LA(LEFT_SHIFT) GRAVE>;
             key-positions = <19 21>;
@@ -192,6 +171,11 @@
         Shift+Alt+Ctrl {
             bindings = <&kp LS(LC(LEFT_ALT))>;
             key-positions = <19 20 21>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <16 2>;
         };
     };
 
@@ -309,8 +293,8 @@
             display-name = "Base";
             bindings = <
 &mt LEFT_WIN TAB  &kp Q           &kp W                  &kp E  &kp R                     &kp T                       &kp Y            &kp U                      &kp I         &kp O            &kp P                    &kp HOME
-&kp LCTRL         &lt 3 A         &Symbols_behavior 2 S  &kp D  &kp F                     &ctrl_behavior LCTRL G      &kp H            &hmr LEFT_SHIFT J          &hmr LCTRL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMICOLON  &kp SINGLE_QUOTE
-&kp LSHFT         &mt LEFT_WIN Z  &mt F1 X               &kp C  &alt_behavior LEFT_ALT V  &shift_behavior LSHIFT B    &kp N            &kp M                      &kp COMMA     &kp DOT          &kp FSLH                 &kp ENTER
+&none             &lt 3 A         &Symbols_behavior 2 S  &kp D  &kp F                     &ctrl_behavior LCTRL G      &kp H            &hmr LEFT_SHIFT J          &hmr LCTRL K  &hmr LEFT_ALT L  &hmr LEFT_WIN SEMICOLON  &kp SINGLE_QUOTE
+&none             &mt LEFT_WIN Z  &mt F1 X               &kp C  &alt_behavior LEFT_ALT V  &shift_behavior LSHIFT B    &kp N            &kp M                      &kp COMMA     &kp DOT          &kp FSLH                 &kp ENTER
                                                          &mo 4  &kp SPACE                 &kp F22                     &lt 3 BACKSPACE  &Symbols_behavior 2 SPACE  &lt 4 DELETE
             >;
         };
