@@ -14,7 +14,7 @@
 
         Refresh {
             bindings = <&kp F5>;
-            key-positions = <14 1 1 14>;
+            key-positions = <2 15>;
             timeout-ms = <25>;
         };
 
@@ -116,16 +116,6 @@
         Lan {
             bindings = <&kp F18>;
             key-positions = <38 39>;
-        };
-
-        Close {
-            bindings = <&kp LC(W)>;
-            key-positions = <26 27 28>;
-        };
-
-        BackSpace {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <0 1>;
         };
 
         SemiColon_R {
