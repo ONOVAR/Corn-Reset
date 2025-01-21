@@ -14,7 +14,7 @@
 
         Refresh {
             bindings = <&kp F5>;
-            key-positions = <2 15>;
+            key-positions = <1 14>;
             timeout-ms = <25>;
         };
 
@@ -165,12 +165,12 @@
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <16 2 15>;
+            key-positions = <2 15>;
         };
 
         delete {
             bindings = <&kp DELETE>;
-            key-positions = <4 15 14>;
+            key-positions = <4 17>;
         };
     };
 
