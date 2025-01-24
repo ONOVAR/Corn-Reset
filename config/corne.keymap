@@ -175,7 +175,7 @@
 
         test {
             bindings = <&kp EQUAL>;
-            key-positions = <13 14 15>;
+            key-positions = <14 15 16>;
         };
     };
 
