@@ -172,6 +172,11 @@
             bindings = <&kp DELETE>;
             key-positions = <4 17>;
         };
+
+        Test {
+            bindings = <&kp EQUAL>;
+            key-positions = <13 16>;
+        };
     };
 
     behaviors {
