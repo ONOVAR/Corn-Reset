@@ -328,9 +328,9 @@
 
         Arrow {
             bindings = <
-&trans  &kp C_VOLUME_UP    &kp HOME  &kp UP     &kp END                                    &kp LC(HOME)                                 &kp PAGE_UP         &kp HOME        &kp UP_ARROW    &kp END    &kp C_VOLUME_UP             &none
-&trans  &kp C_VOLUME_DOWN  &kp LEFT  &kp DOWN   &kp RIGHT                                  &ctrl_behavior LCTRL LC(END)                 &kp PAGE_DOWN       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &mt LEFT_WIN C_VOLUME_DOWN  &none
-&trans  &kp C_MUTE         &none     &none      &shift_behavior LEFT_SHIFT K_CONTEXT_MENU  &shift_behavior LEFT_SHIFT K_CONTEXT_MENU    &kp K_CONTEXT_MENU  &ContextMenu    &none           &none      &kp C_MUTE                  &none
+&trans  &kp C_VOLUME_UP    &kp HOME  &kp UP     &kp END                                    &kp LC(HOME)                                 &kp PAGE_UP         &kp HOME        &kp UP_ARROW    &kp END    &kp C_VOLUME_UP    &none
+&trans  &kp C_VOLUME_DOWN  &kp LEFT  &kp DOWN   &kp RIGHT                                  &ctrl_behavior LCTRL LC(END)                 &kp PAGE_DOWN       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp K_VOLUME_DOWN  &none
+&trans  &kp C_MUTE         &none     &none      &shift_behavior LEFT_SHIFT K_CONTEXT_MENU  &shift_behavior LEFT_SHIFT K_CONTEXT_MENU    &kp K_CONTEXT_MENU  &ContextMenu    &none           &none      &kp C_MUTE         &none
                                      &kp LCTRL  &kp LEFT_SHIFT                             &kp LEFT_ALT                                 &kp LEFT_ALT        &kp LEFT_SHIFT  &kp LCTRL
             >;
         };
