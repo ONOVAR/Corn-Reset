@@ -17,18 +17,3 @@ include:
     shield: corne_left
   - board: nice_nano_v2
     shield: corne_right
-	
-	
-manifest:
-  remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: urob
-      url-base: https://github.com/urob
-  projects:
-    - name: zmk
-      remote: urob
-      revision: mouse-3.2
-      import: app/west.yml
-  self:
-    path: config
