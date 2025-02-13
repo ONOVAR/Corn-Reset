@@ -15,5 +15,11 @@
 include:
   - board: nice_nano_v2
     shield: corne_left
+    config:
+      - CONFIG_ZMK_MOUSE=y
+      - CONFIG_ZMK_MOUSE_POINTER=y
   - board: nice_nano_v2
     shield: corne_right
+    config:
+      - CONFIG_ZMK_MOUSE=y
+      - CONFIG_ZMK_MOUSE_POINTER=y
