@@ -181,7 +181,7 @@
 
         Refresh_F5 {
             bindings = <&kp F5>;
-            key-positions = <15 4>;
+            key-positions = <4 5>;
         };
     };
 
