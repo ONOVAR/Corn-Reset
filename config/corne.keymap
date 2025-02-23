@@ -178,6 +178,11 @@
             bindings = <&kp DELETE>;
             key-positions = <4 17>;
         };
+
+        Refresh_F5 {
+            bindings = <&kp F5>;
+            key-positions = <15 4>;
+        };
     };
 
     behaviors {
