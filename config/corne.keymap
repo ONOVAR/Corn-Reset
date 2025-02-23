@@ -18,12 +18,6 @@
     combos {
         compatible = "zmk,combos";
 
-        Refresh {
-            bindings = <&kp F5>;
-            key-positions = <1 14>;
-            timeout-ms = <25>;
-        };
-
         Esc_Key {
             bindings = <&kp ESCAPE>;
             key-positions = <14 15>;
