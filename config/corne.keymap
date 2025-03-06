@@ -177,7 +177,7 @@
         };
 
         Scave {
-            bindings = <&kp A>;
+            bindings = <&kp LC(S)>;
             key-positions = <12 14>;
         };
     };
@@ -328,7 +328,7 @@
             display-name = "Raise";
             bindings = <
 &kp TAB         &kp LESS_THAN  &kp EXCLAMATION    &kp EQUAL     &kp PLUS      &kp MINUS         &kp COLON    &kp LESS_THAN  &kp EQUAL      &kp GREATER_THAN  &kp TILDE             &kp CARET
-&kp B           &kp COLON      &kp SEMICOLON      &prent_Dance  &brace_Dance  &bracket_Dance    &kp SEMI     &kp SLASH      &kp AMPERSAND  &kp PIPE          &kp NON_US_BACKSLASH  &kp UNDERSCORE
+&kp LC(S)       &kp COLON      &kp SEMICOLON      &prent_Dance  &brace_Dance  &bracket_Dance    &kp SEMI     &kp SLASH      &kp AMPERSAND  &kp PIPE          &kp NON_US_BACKSLASH  &kp UNDERSCORE
 &kp LEFT_SHIFT  &kp SQT        &kp DOUBLE_QUOTES  &kp GRAVE     &kp DOLLAR    &kp AT_SIGN       &kp PERCENT  &kp HASH       &trans         &trans            &kp QUESTION          &trans
                                                   &kp HASH      &trans        &kp PERCENT       &trans       &trans         &trans
             >;
