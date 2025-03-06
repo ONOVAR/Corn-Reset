@@ -326,9 +326,9 @@
 
             display-name = "Raise";
             bindings = <
-&kp TAB         &kp LESS_THAN  &kp EXCLAMATION    &kp EQUAL     &kp PLUS      &kp MINUS         &kp COLON             &kp LESS_THAN  &kp EQUAL      &kp GREATER_THAN  &kp TILDE       &kp CARET
-&kp LC(S)       &kp COLON      &kp SEMICOLON      &prent_Dance  &brace_Dance  &bracket_Dance    &kp NON_US_BACKSLASH  &kp SLASH      &kp AMPERSAND  &kp PIPE          &kp UNDERSCORE  &none
-&kp LEFT_SHIFT  &kp SQT        &kp DOUBLE_QUOTES  &kp GRAVE     &kp DOLLAR    &kp AT_SIGN       &kp PERCENT           &kp HASH       &trans         &trans            &kp QUESTION    &none
+&kp TAB         &kp LESS_THAN  &kp EXCLAMATION    &kp EQUAL     &kp PLUS      &kp MINUS         &kp COLON             &kp LESS_THAN  &kp EQUAL  &kp GREATER_THAN  &kp TILDE       &kp CARET
+&kp LC(S)       &kp COLON      &kp SEMICOLON      &prent_Dance  &brace_Dance  &bracket_Dance    &kp NON_US_BACKSLASH  &kp AMPERSAND  &kp PIPE   &kp SLASH         &kp UNDERSCORE  &none
+&kp LEFT_SHIFT  &kp SQT        &kp DOUBLE_QUOTES  &kp GRAVE     &kp DOLLAR    &kp AT_SIGN       &kp PERCENT           &kp HASH       &trans     &trans            &kp QUESTION    &none
                                                   &kp HASH      &trans        &kp PERCENT       &trans                &trans         &trans
             >;
         };
@@ -344,10 +344,10 @@
 
         Number {
             bindings = <
-&mt LEFT_WIN TAB      &kp N0          &kp N9                        &kp N8     &kp N7             &kp N6          &kp DOLLAR   &kp LESS_THAN        &kp EQUAL        &kp GREATER_THAN       &kp HASH            &trans
-&mt LCTRL ASTERISK    &lt 3 NUMBER_1  &Symbols_behavior 2 NUMBER_2  &kp N3     &kp N4             &kp NUMBER_5    &kp SLASH    &mt LEFT_SHIFT PLUS  &mt LCTRL MINUS  &mt LEFT_ALT ASTERISK  &mt LEFT_WIN SLASH  &trans
-&mt LEFT_SHIFT SLASH  &lt 5 Z         &kp ASTERISK                  &kp MINUS  &mt LEFT_ALT PLUS  &kp EQUAL       &kp PERCENT  &bracket_Dance       &trans           &trans                 &trans              &trans
-                                                                    &trans     &trans             &kp PERCENT     &trans       &trans               &trans
+&mt LEFT_WIN TAB      &kp N0          &kp N9                        &kp N8     &kp N7             &kp N6          &kp COLON     &kp LESS_THAN        &kp EQUAL        &kp GREATER_THAN    &kp HASH            &trans
+&mt LCTRL ASTERISK    &lt 3 NUMBER_1  &Symbols_behavior 2 NUMBER_2  &kp N3     &kp N4             &kp NUMBER_5    &kp ASTERISK  &mt LEFT_SHIFT PLUS  &mt LCTRL MINUS  &mt LEFT_ALT SLASH  &mt LEFT_WIN SLASH  &trans
+&mt LEFT_SHIFT SLASH  &lt 5 Z         &kp ASTERISK                  &kp MINUS  &mt LEFT_ALT PLUS  &kp EQUAL       &kp PERCENT   &bracket_Dance       &trans           &trans              &trans              &trans
+                                                                    &trans     &trans             &kp PERCENT     &trans        &trans               &trans
             >;
         };
 
