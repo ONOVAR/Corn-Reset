@@ -167,14 +167,14 @@
             key-positions = <4 17>;
         };
 
-        Refresh_F5 {
-            bindings = <&kp F5>;
-            key-positions = <4 5>;
-        };
-
         Scave {
             bindings = <&kp LC(S)>;
             key-positions = <12 14>;
+        };
+
+        Refresh {
+            bindings = <&kp F5>;
+            key-positions = <26 27>;
         };
     };
 
