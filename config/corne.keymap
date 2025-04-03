@@ -176,6 +176,11 @@
             bindings = <&kp F5>;
             key-positions = <26 27>;
         };
+
+        Close {
+            bindings = <&kp LC(W)>;
+            key-positions = <4 5>;
+        };
     };
 
     behaviors {
