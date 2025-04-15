@@ -181,11 +181,6 @@
             bindings = <&kp LC(W)>;
             key-positions = <4 5>;
         };
-
-        Save {
-            bindings = <&kp LC(S)>;
-            key-positions = <38 16>;
-        };
     };
 
     behaviors {
