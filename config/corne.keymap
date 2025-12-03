@@ -171,6 +171,11 @@
             bindings = <&kp GRAVE>;
             key-positions = <14 27>;
         };
+
+        Arrow_Macro {
+            bindings = <&macro_arrow>;
+            key-positions = <5 9>;
+        };
     };
 
     behaviors {
@@ -271,6 +276,13 @@
             bindings = <&kp LS(F10)>, <&macro_wait_time 55>, <&kp HOME>;
 
             label = "CONTEXTMENU";
+        };
+
+        macro_arrow: macro_arrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS &kp GREATER_THAN>;
+            label = "MACRO_ARROW";
         };
     };
 
